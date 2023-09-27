@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f3ec75a-f473-4023-8afc-eaa08ee0fbf1" name="Changes" comment="project first commmit&#10;question 1 answered" />
+    <list default="true" id="5f3ec75a-f473-4023-8afc-eaa08ee0fbf1" name="Changes" comment="project first commmit&#10;question 1 answered">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +17,20 @@
       <list>
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MahdiMoghadasi"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="b6ea5e6f-fff6-40b1-8256-038bdd9297e9" />
+        <option name="url" value="https://github.com/IbraOS/TP1" />
+      </UrlAndAccount>
     </option>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -75,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695827959022</updated>
-      <workItem from="1695827960508" duration="2832000" />
+      <workItem from="1695827960508" duration="3180000" />
     </task>
     <task id="LOCAL-00001" summary="project first commmit&#10;question 1 answered">
       <option name="closed" value="true" />
@@ -85,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695830534041</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="project first commmit&#10;question 1 answered">
+      <option name="closed" value="true" />
+      <created>1695830805714</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695830805714</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
