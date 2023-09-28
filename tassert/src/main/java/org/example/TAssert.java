@@ -19,12 +19,14 @@ public class TAssert {
             BufferedReader reader = new BufferedReader(new FileReader(filePath));
 
             int count = 0;
-            Pattern pattern = Pattern.compile("\\b(?:assertEquals|assertNotEquals|assertTrue|assertFalse|assertNotNull|assertNull|assertSame|assertNotSame|assertArray|assertThat|assertThrows|fail)\\b");
+            Pattern pattern = Pattern.compile("\\b(?:assertEquals|assertNotEquals|assertTrue|assertFalse|" +
+                    "assertNotNull|assertNull|assertSame|assertNotSame|assertArray|assertThat|assertThrows|fail)\\b");
 
             String line;
             while ((line = reader.readLine()) != null) {
                 line = line.trim();
-                if ((pattern.matcher(line).find()) && (!line.isEmpty() && !line.startsWith("//") && !line.startsWith("/*") && !line.startsWith("*")) {
+                if (pattern.matcher(line).find()
+                        && (!line.isEmpty() && !line.startsWith("//") && !line.startsWith("/*") && !line.startsWith("*"))){
                     count++;}
             }
 
