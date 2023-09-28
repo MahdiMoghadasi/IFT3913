@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f3ec75a-f473-4023-8afc-eaa08ee0fbf1" name="Changes" comment="project first commmit&#10;question 1 answered">
+      <change afterPath="$PROJECT_DIR$/tassert/src/main/java/org/example/TAssert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tassert/src/main/java/org/example/App.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -33,6 +38,11 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2W21ZWqt5TOTBU0N2BS3VY6q7iL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -92,6 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1695827959022</updated>
       <workItem from="1695827960508" duration="3180000" />
+      <workItem from="1695915919461" duration="1000000" />
     </task>
     <task id="LOCAL-00001" summary="project first commmit&#10;question 1 answered">
       <option name="closed" value="true" />
