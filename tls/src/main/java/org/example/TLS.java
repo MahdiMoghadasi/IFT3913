@@ -3,12 +3,17 @@ package org.example;
 import java.io.*;
 import java.nio.file.*;
 import java.util.stream.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class TLS {
 
     public static void main(String[] args) throws IOException {
         if (args.length < 1) {
-            System.err.println("Veuillez spécifier le chemin du dossier source Java.");
+            System.err.println("please specify the file path.");
             System.exit(1);
         }
 
@@ -42,8 +47,22 @@ public class TLS {
     }
 
     private static String extractPackageName(String javaFileAbsolutePath) {
-        // Implémentez cette méthode pour extraire le nom du paquet à partir du chemin absolu du fichier Java.
-        return "Not Implemented";
+
+        try (BufferedReader reader = new BufferedReader(new FileReader(javaFileAbsolutePath))) {
+            String line;
+            Pattern pattern = Pattern.compile("^\\s*package\\s+([^;]+);");
+            String packageName = "not found";
+            while ((line = reader.readLine()) != null) {
+                Matcher matcher = pattern.matcher(line);
+                if (matcher.find()) {
+                    packageName = matcher.group(1);
+                }
+            }
+            return packageName;
+        }
+        catch (Exception e){
+            return "extract package not working";
+        }
     }
 
     private static void writeToFile(String outputPath, String outputLine) {
