@@ -17,17 +17,28 @@ public class TLS {
             System.exit(1);
         }
 
-        String folderPath = args[0];
-        String outputPath = args.length > 2 && args[0].equals("-o") ? args[1] : null;
+        String folderPath;
+        String outputFilePath;
+
+        if(args[0].equals("-o") && args.length > 2){
+            folderPath = args[2];
+            outputFilePath = args[1];
+        }
+        else{
+            folderPath = args[0];
+            outputFilePath = null;
+        }
+
+
 
         try (Stream<Path> paths = Files.walk(Paths.get(folderPath))) {
             paths.filter(Files::isRegularFile)
                     .filter(path -> path.toString().endsWith(".java"))
-                    .forEach(path -> processJavaFile(path, outputPath));
+                    .forEach(path -> processJavaFile(path, outputFilePath));
         }
     }
 
-    private static void processJavaFile(Path javaFilePath, String outputPath) {
+    private static void processJavaFile(Path javaFilePath, String outputFilePath) {
         String javaFileAbsolutePath = javaFilePath.toString();
         String packageName = extractPackageName(javaFileAbsolutePath);
         String className = javaFilePath.getFileName().toString().replace(".java", "");
@@ -39,8 +50,8 @@ public class TLS {
 
         String outputLine = String.format("%s, %s, %s, %d, %d, %.2f", javaFileAbsolutePath, packageName, className, tloc, tassert, tcmp);
 
-        if (outputPath != null) {
-            writeToFile(outputPath, outputLine);
+        if (outputFilePath != null) {
+            writeToFile(outputFilePath, outputLine);
         } else {
             System.out.println(outputLine);
         }
@@ -65,8 +76,8 @@ public class TLS {
         }
     }
 
-    private static void writeToFile(String outputPath, String outputLine) {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(outputPath, true))) {
+    private static void writeToFile(String outputFilePath, String outputLine) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(outputFilePath, true))) {
             writer.write(outputLine);
             writer.newLine();
         } catch (IOException e) {
