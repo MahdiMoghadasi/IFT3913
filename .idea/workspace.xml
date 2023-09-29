@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5f3ec75a-f473-4023-8afc-eaa08ee0fbf1" name="Changes" comment="project first commmit&#10;question 1 answered">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tls/src/main/java/org/example/TLS.java" beforeDir="false" afterPath="$PROJECT_DIR$/tls/src/main/java/org/example/TLS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,7 @@
     <configuration name="TLS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.TLS" />
       <module name="tls" />
-      <option name="PROGRAM_PARAMETERS" value="-o Users/mahdi/IdeaProjects/tp1/tls/src/main/resources/title/output.csv $PROJECT_DIR$/tls/src/main/resources/title" />
+      <option name="PROGRAM_PARAMETERS" value="-o $PROJECT_DIR$/tls/src/main/resources/title/test.csv $PROJECT_DIR$/tls/src/main/resources/title" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -122,14 +121,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in tls" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tls" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.TLS" />
       <item itemvalue="Application.TAssert" />
       <item itemvalue="Application.Tloc" />
+      <item itemvalue="JUnit.All in tls" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TLS" />
+        <item itemvalue="JUnit.All in tls" />
         <item itemvalue="Application.Tloc" />
         <item itemvalue="Application.TAssert" />
       </list>
@@ -149,6 +158,7 @@
       <workItem from="1696023674836" duration="125000" />
       <workItem from="1696027789404" duration="649000" />
       <workItem from="1696028469101" duration="66000" />
+      <workItem from="1696028642485" duration="483000" />
     </task>
     <task id="LOCAL-00001" summary="project first commmit&#10;question 1 answered">
       <option name="closed" value="true" />
