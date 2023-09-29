@@ -12,6 +12,7 @@
   <modules>
     <module>tloc</module>
     <module>tassert</module>
+      <module>tls</module>
   </modules>
 
   <properties>

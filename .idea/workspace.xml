@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f3ec75a-f473-4023-8afc-eaa08ee0fbf1" name="Changes" comment="project first commmit&#10;question 1 answered">
-      <change afterPath="$PROJECT_DIR$/tassert/src/main/resources/TestFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tls/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tls/src/main/java/org/example/TAssert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tls/src/main/java/org/example/Tloc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tls/src/main/java/org/example/Tls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tls/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tassert/src/main/java/org/example/TAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/tassert/src/main/java/org/example/TAssert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tloc/src/main/java/org/example/Tloc.java" beforeDir="false" afterPath="$PROJECT_DIR$/tloc/src/main/java/org/example/Tloc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +129,7 @@
       <updated>1695827959022</updated>
       <workItem from="1695827960508" duration="3180000" />
       <workItem from="1695915919461" duration="1000000" />
+      <workItem from="1696019385975" duration="2754000" />
     </task>
     <task id="LOCAL-00001" summary="project first commmit&#10;question 1 answered">
       <option name="closed" value="true" />
