@@ -27,8 +27,8 @@ public class TLS {
         String packageName = extractPackageName(javaFileAbsolutePath);
         String className = javaFilePath.getFileName().toString().replace(".java", "");
 
-        Tloc.main(new String[]{javaFileAbsolutePath});
-        TAssert.main(new String[]{javaFileAbsolutePath});
+        int tloc = Tloc.numTloc(new String[]{javaFileAbsolutePath});
+        int tassert = TAssert.numTAssert(new String[]{javaFileAbsolutePath});
 
         double tcmp = tloc / (double) tassert;
 
