@@ -113,7 +113,7 @@ public class TLS {
         }
     }
 
-    private static void writeToFile(String outputFilePath, String outputLine) {
+    protected static void writeToFile(String outputFilePath, String outputLine) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(outputFilePath, true))) {
             writer.write(outputLine);
             writer.newLine();
