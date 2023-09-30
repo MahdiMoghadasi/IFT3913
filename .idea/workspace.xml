@@ -7,7 +7,7 @@
     <list default="true" id="5f3ec75a-f473-4023-8afc-eaa08ee0fbf1" name="Changes" comment="project first commmit&#10;question 1 answered">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tls/src/main/java/org/example/TLS.java" beforeDir="false" afterPath="$PROJECT_DIR$/tls/src/main/java/org/example/TLS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tropcomp/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tls/src/main/resources/title/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tls/src/main/resources/title/test.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tropcomp/src/main/java/org/example/TLS.java" beforeDir="false" afterPath="$PROJECT_DIR$/tropcomp/src/main/java/org/example/TLS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

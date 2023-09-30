@@ -11,6 +11,14 @@ import java.util.regex.Pattern;
 
 public class TLS {
 
+    String javaFileAbsolutePath;
+    String packageName;
+    String className;
+    int tloc;
+    int tassert;
+    double tcmp;
+
+
     public static void main(String[] args) throws IOException {
         if (args.length < 1) {
             System.err.println("please specify the file path.");
@@ -44,16 +52,17 @@ public class TLS {
     }
 
     private static void processJavaFile(Path javaFilePath, String outputFilePath) {
-        String javaFileAbsolutePath = javaFilePath.toString();
-        String packageName = extractPackageName(javaFileAbsolutePath);
-        String className = javaFilePath.getFileName().toString().replace(".java", "");
+        TLS object = new TLS();
+        object.javaFileAbsolutePath = javaFilePath.toString();
+        object.packageName = extractPackageName(object.javaFileAbsolutePath);
+        object.className = javaFilePath.getFileName().toString().replace(".java", "");
+        object.tloc = Tloc.numTloc(new String[]{object.javaFileAbsolutePath});
+        object.tassert = TAssert.numTAssert(new String[]{object.javaFileAbsolutePath});
+        object.tcmp = object.tloc / (double) object.tassert;
 
-        int tloc = Tloc.numTloc(new String[]{javaFileAbsolutePath});
-        int tassert = TAssert.numTAssert(new String[]{javaFileAbsolutePath});
+        String outputLine = String.format("%s, %s, %s, %d, %d, %.2f", object.javaFileAbsolutePath, object.packageName,
+                object.className, object.tloc, object.tassert, object.tcmp);
 
-        double tcmp = tloc / (double) tassert;
-
-        String outputLine = String.format("%s, %s, %s, %d, %d, %.2f", javaFileAbsolutePath, packageName, className, tloc, tassert, tcmp);
 
         if (outputFilePath != null) {
             writeToFile(outputFilePath, outputLine);
