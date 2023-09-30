@@ -29,6 +29,11 @@ public class TLS {
             outputFilePath = null;
         }
 
+        // Deleting the output file if it exists and creating it again
+        if(outputFilePath != null) {
+            Path outputPath = Paths.get(outputFilePath);
+            Files.deleteIfExists(outputPath);
+        }
 
 
         try (Stream<Path> paths = Files.walk(Paths.get(folderPath))) {

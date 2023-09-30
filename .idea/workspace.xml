@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f3ec75a-f473-4023-8afc-eaa08ee0fbf1" name="Changes" comment="project first commmit&#10;question 1 answered">
-      <change afterPath="$PROJECT_DIR$/tropcomp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tropcomp/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tropcomp/src/main/java/org/example/TAssert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tropcomp/src/main/java/org/example/TLS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tropcomp/src/main/java/org/example/Tloc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tropcomp/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tls/src/main/java/org/example/TLS.java" beforeDir="false" afterPath="$PROJECT_DIR$/tls/src/main/java/org/example/TLS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tropcomp/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tropcomp/src/main/java/org/example/TLS.java" beforeDir="false" afterPath="$PROJECT_DIR$/tropcomp/src/main/java/org/example/TLS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +163,7 @@
       <workItem from="1696027789404" duration="649000" />
       <workItem from="1696028469101" duration="66000" />
       <workItem from="1696028642485" duration="887000" />
+      <workItem from="1696092419593" duration="1834000" />
     </task>
     <task id="LOCAL-00001" summary="project first commmit&#10;question 1 answered">
       <option name="closed" value="true" />

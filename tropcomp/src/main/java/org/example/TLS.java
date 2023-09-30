@@ -1,12 +1,13 @@
 package org.example;
 
 import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.nio.file.*;
+import java.util.stream.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.stream.Stream;
 
 public class TLS {
 
@@ -28,6 +29,11 @@ public class TLS {
             outputFilePath = null;
         }
 
+        // Deleting the output file if it exists and creating it again
+        if(outputFilePath != null) {
+            Path outputPath = Paths.get(outputFilePath);
+            Files.deleteIfExists(outputPath);
+        }
 
 
         try (Stream<Path> paths = Files.walk(Paths.get(folderPath))) {
