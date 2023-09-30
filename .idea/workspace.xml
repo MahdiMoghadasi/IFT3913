@@ -100,7 +100,7 @@
     <configuration name="TLS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.TLS" />
       <module name="tls" />
-      <option name="PROGRAM_PARAMETERS" value="-o $PROJECT_DIR$/tls/src/main/resources/title/test.csv $PROJECT_DIR$/tls/src/main/resources/title" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/tls/src/main/resources/title" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />

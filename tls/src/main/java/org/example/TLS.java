@@ -2,6 +2,8 @@ package org.example;
 
 import java.io.*;
 import java.nio.file.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.stream.*;
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -18,8 +20,11 @@ public class TLS {
     int tassert;
     double tcmp;
 
+//    static List<TLS> listTLS = new ArrayList<>();
 
-    public static void main(String[] args) throws IOException {
+
+    public static void main(String[] args) throws IOException{
+
         if (args.length < 1) {
             System.err.println("please specify the file path.");
             System.exit(1);
@@ -44,14 +49,39 @@ public class TLS {
         }
 
 
+
+        List<TLS> listTLS = createListTLS(folderPath);
+
+        for(TLS elem: listTLS){
+            String outputLine = String.format("%s, %s, %s, %d, %d, %.2f", elem.javaFileAbsolutePath, elem.packageName,
+                    elem.className, elem.tloc, elem.tassert, elem.tcmp);
+
+            if (outputFilePath != null) {
+                writeToFile(outputFilePath, outputLine);
+            } else {
+                System.out.println(outputLine);
+            }
+        }
+
+
+    }
+
+    public static List<TLS> createListTLS(String folderPath) throws IOException{
+
+
+
+        List<TLS> listTLS = new ArrayList<>();
+
         try (Stream<Path> paths = Files.walk(Paths.get(folderPath))) {
             paths.filter(Files::isRegularFile)
                     .filter(path -> path.toString().endsWith(".java"))
-                    .forEach(path -> processJavaFile(path, outputFilePath));
+                    .forEach(path -> processJavaFile(path, listTLS));
         }
+
+        return listTLS;
     }
 
-    private static void processJavaFile(Path javaFilePath, String outputFilePath) {
+    private static void processJavaFile(Path javaFilePath, List<TLS> listTLS) {
         TLS object = new TLS();
         object.javaFileAbsolutePath = javaFilePath.toString();
         object.packageName = extractPackageName(object.javaFileAbsolutePath);
@@ -60,15 +90,8 @@ public class TLS {
         object.tassert = TAssert.numTAssert(new String[]{object.javaFileAbsolutePath});
         object.tcmp = object.tloc / (double) object.tassert;
 
-        String outputLine = String.format("%s, %s, %s, %d, %d, %.2f", object.javaFileAbsolutePath, object.packageName,
-                object.className, object.tloc, object.tassert, object.tcmp);
+        listTLS.add(object);
 
-
-        if (outputFilePath != null) {
-            writeToFile(outputFilePath, outputLine);
-        } else {
-            System.out.println(outputLine);
-        }
     }
 
     private static String extractPackageName(String javaFileAbsolutePath) {
