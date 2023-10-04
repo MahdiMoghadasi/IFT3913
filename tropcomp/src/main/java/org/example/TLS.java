@@ -90,8 +90,8 @@ public class TLS {
         object.tassert = TAssert.numTAssert(new String[]{object.javaFileAbsolutePath});
         object.tcmp = object.tloc / (double) object.tassert;
 
-        listTLS.add(object);
-
+        //on exclues les classes sans test
+        if(object.tassert != 0)  listTLS.add(object);
     }
 
     private static String extractPackageName(String javaFileAbsolutePath) {
