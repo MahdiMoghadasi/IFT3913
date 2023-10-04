@@ -46,6 +46,7 @@ public class TLS {
         if(outputFilePath != null) {
             Path outputPath = Paths.get(outputFilePath);
             Files.deleteIfExists(outputPath);
+            Files.createFile(outputPath);
         }
 
 

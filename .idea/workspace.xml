@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tls/src/main/java/org/example/TLS.java" beforeDir="false" afterPath="$PROJECT_DIR$/tls/src/main/java/org/example/TLS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tropcomp/src/main/java/org/example/TLS.java" beforeDir="false" afterPath="$PROJECT_DIR$/tropcomp/src/main/java/org/example/TLS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tropcomp/src/main/java/org/example/TropComp.java" beforeDir="false" afterPath="$PROJECT_DIR$/tropcomp/src/main/java/org/example/TropComp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,9 @@
         <option name="url" value="https://github.com/IbraOS/TP1" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -79,6 +83,7 @@
       <recent name="$PROJECT_DIR$/tls/src/main/resources/title" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tropcomp/src/main/resources/" />
       <recent name="$PROJECT_DIR$/tropcomp/src/main/resources" />
       <recent name="$PROJECT_DIR$/tloc/src/main/resources" />
     </key>
@@ -143,7 +148,8 @@
     <configuration name="TropComp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.TropComp" />
       <module name="tropcomp" />
-      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/tropcomp/src/main/resources/title 1" />
+      <option name="PROGRAM_PARAMETERS" value="jfreechart-master 1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tropcomp/src/main/resources/" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -195,7 +201,7 @@
       <workItem from="1696028469101" duration="66000" />
       <workItem from="1696028642485" duration="887000" />
       <workItem from="1696092419593" duration="1834000" />
-      <workItem from="1696429032478" duration="1938000" />
+      <workItem from="1696429032478" duration="4432000" />
     </task>
     <task id="LOCAL-00001" summary="project first commmit&#10;question 1 answered">
       <option name="closed" value="true" />
@@ -233,5 +239,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project first commmit&#10;question 1 answered" />
     <option name="LAST_COMMIT_MESSAGE" value="project first commmit&#10;question 1 answered" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tropcomp/src/main/java/org/example/TropComp.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tropcomp/src/main/java/org/example/TropComp.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

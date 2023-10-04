@@ -39,6 +39,7 @@ public class TropComp {
             if(outputFilePath != null) {
                 Path outputPath = Paths.get(outputFilePath);
                 Files.deleteIfExists(outputPath);
+                Files.createFile(outputPath);
             }
         }
         catch(Exception e ){
@@ -60,6 +61,8 @@ public class TropComp {
                     System.out.println(outputLine);
                 }
             }
+
+            if(filteredList.isEmpty()) System.out.println("No file satisfies the TLOC and TCMP limit entered.");
         }
         catch(Exception e ){
             System.out.println("List could not be created.");
