@@ -15,9 +15,14 @@ public class TAssert {
 
     public static int numTAssert(String[] args){
         if(args.length < 1) {
-            System.err.println("Specify the FilePath");
+            System.err.println("Specify the folder path.");
             System.exit(1);
         }
+        if(args.length > 1){
+            System.err.println("Specify only ONE folder.");
+            System.exit(1);
+        }
+
         String filePath = args[0];
 
         try {

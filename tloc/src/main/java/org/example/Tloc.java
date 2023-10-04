@@ -18,6 +18,10 @@ public class Tloc {
             return -1;
         }
 
+        if(args.length > 1){
+            System.out.println("Run the program again and provide only ONE file path as an argument.");
+        }
+
         try {
             BufferedReader reader = new BufferedReader(new FileReader(args[0]));
             int count = 0;
