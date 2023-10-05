@@ -31,17 +31,29 @@ javac org/example/<classname>.java
 Execution classes java (sans jar)
 gere les path relatif et absolu.
 
-tloc:      java org.example.Tloc 	<File_Path>
+tloc:      java org.example.Tloc <File_Path>
 
-tassert:   java org.example.TAssert	<File_Path>
+tassert:   java org.example.TAssert <File_Path>
 
 tls:       java org.example.TLS <folder_Path>                                     (affiche sur le terminal)
                           ou
            java org.example.TLS -o <output_path.csv> <input_folder_path>          (ecrit sur fichier csv)
 
-tropcomp:  java org.example.TropComp <folder_path>                                (affiche sur le terminal) 
+tropcomp:  java org.example.TropComp <folder_path> <seuil>                        (affiche sur le terminal) 
                           ou    
            java org.example.TLS -o <output_path.csv> <input_folder_path> <seuil>  (ecrit sur fichier csv)
 
 
-execution des jar:
+execution des jar:(executer depuis le directory ou se trouver le .jar)
+
+tloc        :     java -jar tloc.jar <File_Path>
+
+tassert     :     java -jar tassert.jar <File_Path>
+
+tls         :     java -jar tls.jar <Folder_Path>
+                             ou
+                  java -jar tls.jar -o <output_path.csv> <input_folder_path>
+
+tropcomp    :     java -jar tropcomp.jar <folder_path> <seuil>
+                                ou
+                  java -jar tropcomp.jar -o <output_path.csv> <input_folder_path> <seuil>
