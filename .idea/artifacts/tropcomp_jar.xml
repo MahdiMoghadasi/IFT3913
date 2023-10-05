@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="tropcomp:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/tropcomp_jar</output-path>
+    <root id="archive" name="tropcomp.jar">
+      <element id="module-output" name="tropcomp" />
+    </root>
+  </artifact>
+</component>

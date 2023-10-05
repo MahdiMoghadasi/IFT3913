@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="tloc:jar" />
+      <artifact name="tropcomp:jar" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,16 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f3ec75a-f473-4023-8afc-eaa08ee0fbf1" name="Changes" comment="project first commmit&#10;question 1 answered">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/tassert_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/tls_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/tropcomp_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tassert/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tls/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tropcomp/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tassert/src/main/java/org/example/TAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/tassert/src/main/java/org/example/TAssert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tloc/src/main/java/org/example/Tloc.java" beforeDir="false" afterPath="$PROJECT_DIR$/tloc/src/main/java/org/example/Tloc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tls/src/main/java/org/example/TAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/tls/src/main/java/org/example/TAssert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tls/src/main/java/org/example/TLS.java" beforeDir="false" afterPath="$PROJECT_DIR$/tls/src/main/java/org/example/TLS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tls/src/main/java/org/example/Tloc.java" beforeDir="false" afterPath="$PROJECT_DIR$/tls/src/main/java/org/example/Tloc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tropcomp/src/main/java/org/example/TAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/tropcomp/src/main/java/org/example/TAssert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tropcomp/src/main/java/org/example/TLS.java" beforeDir="false" afterPath="$PROJECT_DIR$/tropcomp/src/main/java/org/example/TLS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tropcomp/src/main/java/org/example/Tloc.java" beforeDir="false" afterPath="$PROJECT_DIR$/tropcomp/src/main/java/org/example/Tloc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tropcomp/src/main/java/org/example/TropComp.java" beforeDir="false" afterPath="$PROJECT_DIR$/tropcomp/src/main/java/org/example/TropComp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/tloc_jar/tloc.jar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +98,7 @@
       <recent name="$PROJECT_DIR$/tloc/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TropComp">
+  <component name="RunManager" selected="Application.TLS1">
     <configuration name="TLS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.TLS" />
       <module name="tls" />
@@ -118,7 +116,8 @@
     <configuration name="TLS1" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="org.example.TLS" />
       <module name="tropcomp" />
-      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/tls/src/main/resources/title" />
+      <option name="PROGRAM_PARAMETERS" value="../title/" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tls/src/main/resources/title" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -161,7 +160,7 @@
       <option name="MAIN_CLASS_NAME" value="org.example.TropComp" />
       <module name="tropcomp" />
       <option name="PROGRAM_PARAMETERS" value="jfreechart-master 1" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tropcomp/src/main/resources/" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tropcomp/src/main/resources/title/DateTitle.java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -189,8 +188,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TropComp" />
         <item itemvalue="Application.TLS1" />
+        <item itemvalue="Application.TropComp" />
         <item itemvalue="Application.TLS" />
         <item itemvalue="Application.TLS" />
         <item itemvalue="JUnit.All in tls" />
@@ -214,7 +213,7 @@
       <workItem from="1696028642485" duration="887000" />
       <workItem from="1696092419593" duration="1834000" />
       <workItem from="1696429032478" duration="7873000" />
-      <workItem from="1696523347803" duration="7205000" />
+      <workItem from="1696523347803" duration="10575000" />
     </task>
     <task id="LOCAL-00001" summary="project first commmit&#10;question 1 answered">
       <option name="closed" value="true" />
