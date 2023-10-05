@@ -1,0 +1,27 @@
+RÉPONSE QUESTION 5:
+
+En observant les tests faits avec tropcomp et à l'aide de notre compréhension de cette mesure, nous arrivons aux conclusions suivantes :
+
+- Tropcomp permet effectivement de détecter les classes beaucoup plus complexes que les autres classes 
+du projet (beaucoup de lignes de code par rapport aux tests). Cependant, le problème intervient quand 
+la différence de complexité entre les classes est moins grande, car certaines classes peuvent ne pas être prises en compte 
+alors qu'elles ne sont pas moins complexes que celles qui sont prises en compte par tropcomp.
+
+Exemple : on a 100 classes et prenons les classes A et B avec un seuil de 10%. A est 1ère en TLOC mais 11ème en TCMP, 
+et B est 10ème dans les deux. B sera prise en compte et A non, alors qu'elle n'est pas nécessairement moins complexe.
+
+- De plus, le fonctionnement de TropComp est relatif : on calcule la complexité des classes par rapport aux autres classes du projet 
+et non pas une complexité objective. Donc, on pourrait prendre en compte des classes avec tropcomp alors que la classe 
+n'est pas nécessairement trop complexe ; elle l'est seulement plus que les autres classes du projet.
+
+Exemple : Nous pourrions aussi avoir beaucoup de classes complexes dans notre projet, mais si on a quelques classes plus complexes 
+dans le seuil, d'autres classes qui sont aussi trop complexes ne seront pas prises en compte.
+
+- De plus, elle ne prend pas en compte d'autres aspects de la complexité du code comme, par exemple, la maintenabilité des classes, 
+la taille de chaque méthode (les tâches bien réparties entre plusieurs méthodes au lieu d'une seule grande), 
+les standards de la programmation orientée objet (comme l'héritage pour éviter les répétitions dans le code),
+le couplage et la cohésion entre les différentes composantes du code.
+
+Conclusion :
+On peut dire que tropcomp est un bon début pour avoir une idée de la complexité des classes, 
+mais elle n'est pas assez précise et ne prend pas en considération d'autres aspects importants pour évaluer la complexité du code.
