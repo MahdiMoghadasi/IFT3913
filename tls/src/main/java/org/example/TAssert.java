@@ -35,6 +35,7 @@ public class TAssert {
             String line;
             while ((line = reader.readLine()) != null) {
                 line = line.trim();
+                // if the line contains any asserts and indeed is not a comment, we increment the counter.
                 if (pattern.matcher(line).find()
                         && (!line.isEmpty() && !line.startsWith("//") && !line.startsWith("/*") && !line.startsWith("*"))){
                     count++;}

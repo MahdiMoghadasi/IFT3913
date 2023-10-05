@@ -20,7 +20,6 @@ public class TLS {
     int tassert;
     double tcmp;
 
-//    static List<TLS> listTLS = new ArrayList<>();
 
 
     public static void main(String[] args) throws IOException{
@@ -33,11 +32,13 @@ public class TLS {
         String folderPath;
         String outputFilePath;
 
+        // in case we output to a csv file
         if(args[0].equals("-o") && args.length > 2){
             folderPath = args[2];
             outputFilePath = args[1];
         }
         else{
+            // in case we want to write to terminal
             folderPath = args[0];
             outputFilePath = null;
         }
@@ -53,13 +54,17 @@ public class TLS {
 
         List<TLS> listTLS = createListTLS(folderPath);
 
+
+        //writing the list containing the information for each java file
         for(TLS elem: listTLS){
             String outputLine = String.format("%s, %s, %s, %d, %d, %.2f", elem.javaFileAbsolutePath, elem.packageName,
                     elem.className, elem.tloc, elem.tassert, elem.tcmp);
 
+            // in case we specify a csv file and we write to the csv file
             if (outputFilePath != null) {
                 writeToFile(outputFilePath, outputLine);
             } else {
+                //writing to terminal
                 System.out.println(outputLine);
             }
         }
@@ -91,7 +96,7 @@ public class TLS {
         object.tassert = TAssert.numTAssert(new String[]{object.javaFileAbsolutePath});
         object.tcmp = object.tloc / (double) object.tassert;
 
-        //on exclues les classes sans test
+        //excluding the classes without tests
         if(object.tassert != 0)  listTLS.add(object);
     }
 

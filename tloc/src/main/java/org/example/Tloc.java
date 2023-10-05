@@ -29,6 +29,8 @@ public class Tloc {
 
             while ((line = reader.readLine()) != null) {
                 line = line.trim();
+
+                //Check and only counts the lines containing code
                 if (!line.isEmpty() && !line.startsWith("//") && !line.startsWith("/*") && !line.startsWith("*")) {
                     count++;
                 }
