@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cdb776a-7c9f-41c6-8286-9767236adcab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TP2/src/main/java/org/example/TLS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP1/tls/src/main/java/org/example/TLS.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP1/tls/src/main/java/org/example/TLS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2/src/main/java/org/example/TLS.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/src/main/java/org/example/TLS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2/src/main/resources/jfreechart-master/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/src/main/resources/jfreechart-master/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,16 +55,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TLS">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="TP2" />
@@ -126,8 +127,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TLS" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.TLS" />
         <item itemvalue="Application.TLS" />
         <item itemvalue="Application.TAssert" />
       </list>
@@ -141,26 +142,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697737832875</updated>
-      <workItem from="1697737834692" duration="8737000" />
+      <workItem from="1697737834692" duration="16591000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/TP2/src/main/java/org/example/App.java</url>
-          <line>5</line>
-          <properties class="org.example.App" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

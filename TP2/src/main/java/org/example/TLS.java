@@ -112,11 +112,6 @@ public class TLS {
 
         ratioAllFiles = tlocAllFiles / (double) tassertAllFiles;
 
-        System.out.println(tlocAllFiles);
-        System.out.println(tassertAllFiles);
-        System.out.println(listTLS.size());
-
-
 
         return ratioAllFiles;
 
