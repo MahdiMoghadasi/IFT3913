@@ -29,7 +29,10 @@ jobs:
         cd TP2/src/main/resources/jfreechart-master
         mvn clean verify
 
+    - name: Copy Jacoco csv to resources TP2
+      run: cp TP2/src/main/resources/jfreechart-master/target/site/jacoco/jacoco.csv TP2/src/main/resources/jacoco.csv
 
+          
     - name: Build TP2 with Maven
       run: |
         cd TP2
