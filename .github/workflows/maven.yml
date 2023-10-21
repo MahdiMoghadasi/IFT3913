@@ -22,7 +22,9 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn clean verify
+      run: |
+        cd /TP2
+        mvn clean verify
     - name: Build jfreechart with Maven with Jacoco
       run: |
         cd /TP2/src/main/resources/jfreechart-master
