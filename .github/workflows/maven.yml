@@ -21,31 +21,37 @@ jobs:
         java-version: '21'
         distribution: 'temurin'
         cache: maven
-    - name: Build TP2 with Maven
-      run: |
-        echo "Current directory: $(pwd)"
-        cd TP2
-        mvn clean verify
-    - name: Upload TP2 target files
-      uses: actions/upload-artifact@v2
-      with:
-        name: TP2-target
-        path: TP2/target/
+        
+
+
     - name: Build jfreechart with Maven including Jacoco
       run: |
         cd TP2/src/main/resources/jfreechart-master
         mvn clean verify
-    - name: Upload jfreechart target files
-      uses: actions/upload-artifact@v2
-      with:
-        name: jfreechart-target
-        path: TP2/src/main/resources/jfreechart-master/target/
+
+
+    - name: Build TP2 with Maven
+      run: |
+        cd TP2
+        mvn clean verify
+        
+    # - name: Upload jfreechart target files
+    #   uses: actions/upload-artifact@v2
+    #   with:
+    #     name: jfreechart-target
+    #     path: TP2/src/main/resources/jfreechart-master/target/
+    
     - name: Upload JaCoCo report
       uses: actions/upload-artifact@v2
       with:
         name: jacoco-report
         path: TP2/src/main/resources/jfreechart-master/target/site/jacoco/
-
+        
+    # - name: Upload TP2 target files
+    #   uses: actions/upload-artifact@v2
+    #   with:
+    #     name: TP2-target
+    #     path: TP2/target/
     
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
