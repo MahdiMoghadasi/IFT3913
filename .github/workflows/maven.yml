@@ -29,9 +29,6 @@ jobs:
         mvn clean verify
 
     - name: Upload JaCoCo report
-      run: |
-        cd /TP2/src/main/resources/jfreechart-master
-        echo "Uploading JaCoCo report..."
       uses: actions/upload-artifact@v2
       with:
         name: jacoco-report
