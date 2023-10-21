@@ -21,12 +21,12 @@ jobs:
         java-version: '21'
         distribution: 'temurin'
         cache: maven
-    - name: Build with Maven
+    - name: Build TP2 with Maven
       run: |
         echo "Current directory: $(pwd)"
         cd TP2
         mvn clean verify
-    - name: Build jfreechart with Maven with Jacoco
+    - name: Build jfreechart with Maven including Jacoco
       run: |
         cd TP2/src/main/resources/jfreechart-master
         mvn clean verify
