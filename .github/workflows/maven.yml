@@ -53,10 +53,6 @@ jobs:
     #     name: TP2-target
     #     path: TP2/target/
     
-    # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
-    - name: Update dependency graph
-      working-directory: TP2/src/main/resources/jfreechart-master
-      run: mvn com.github.ferstl:depgraph-maven-plugin:graph
 
 
 
