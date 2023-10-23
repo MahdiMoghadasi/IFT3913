@@ -36,9 +36,10 @@ public class Jacoco {
                 .max()
                 .orElse(0);
         double averageMethodComplexityInTests = classes.stream()
-                .mapToDouble(c -> c.complexityCovered / (double) c.methodCovered)
-                .average()
-                .orElse(0.0);
+                .mapToInt(c -> c.complexityCovered)
+                .sum() / (double) classes.stream()
+                .mapToInt(c -> c.methodCovered)
+                .sum();
 
         // Print results
         System.out.println("Q1: Are there enough tests?");
