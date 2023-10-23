@@ -1,0 +1,3 @@
+[submodule "TP2/src/main/resources/jfreechart"]
+	path = TP2/src/main/resources/jfreechart
+	url = https://github.com/jfree/jfreechart
