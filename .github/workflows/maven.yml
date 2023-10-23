@@ -39,7 +39,7 @@ jobs:
         git config --local user.name "GitHub Action"
         git add TP2/src/main/resources/jacoco.csv
         git commit -m "Update Jacoco csv file"
-        git remote set-url origin https://$PERSONAL_ACCESS_TOKEN@github.com/MahdiMoghadasi/IFT3913.git
+        git remote set-url origin https://${{ env.PERSONAL_ACCESS_TOKEN }}@github.com/MahdiMoghadasi/IFT3913.git
         git push
         
     - name: Build TP2 with Maven
