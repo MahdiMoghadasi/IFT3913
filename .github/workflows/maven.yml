@@ -32,13 +32,13 @@ jobs:
     - name: Copy Jacoco csv to resources TP2
       run: cp TP2/src/main/resources/jfreechart-master/target/site/jacoco/jacoco.csv TP2/src/main/resources/jacoco.csv
 
-    # - name: Commit and push Jacoco csv file
-    #   run: |
-    #     git config --local user.email "action@github.com"
-    #     git config --local user.name "GitHub Action"
-    #     git add TP2/src/main/resources/jacoco.csv
-    #     git commit -m "Update Jacoco csv file"
-    #     git push
+    - name: Commit and push Jacoco csv file
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add TP2/src/main/resources/jacoco.csv
+        git commit -m "Update Jacoco csv file"
+        git push
 
 
           
