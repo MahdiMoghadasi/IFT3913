@@ -10,7 +10,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -35,15 +34,13 @@ jobs:
     - name: Commit and push Jacoco csv file
       env:
         PERSONAL_ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-    run: |
+      run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add TP2/src/main/resources/jacoco.csv
         git commit -m "Update Jacoco csv file"
         git push
-
-
-          
+        
     - name: Build TP2 with Maven
       run: |
         cd TP2
