@@ -34,13 +34,13 @@ jobs:
 
     - name: Commit and push Jacoco csv file
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
+        PERSONAL_ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+    run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add TP2/src/main/resources/jacoco.csv
         git commit -m "Update Jacoco csv file"
-        git push --set-upstream origin ${{ github.head_ref }} --force
+        git push
 
 
           
