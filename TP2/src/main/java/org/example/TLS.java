@@ -88,7 +88,7 @@ public class TLS {
 
 
     public static double calculateTLS(){
-        String folderPath = "TP2/src/main/resources/jfreechart-master";
+        String folderPath = "TP2/src/main/resources/jfreechart";
 
 
         List<TLS> listTLS = new ArrayList<>();

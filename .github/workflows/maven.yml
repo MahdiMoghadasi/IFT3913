@@ -25,11 +25,11 @@ jobs:
 
     - name: Build jfreechart with Maven including Jacoco
       run: |
-        cd TP2/src/main/resources/jfreechart-master
+        cd TP2/src/main/resources/jfreechart
         mvn clean verify
 
     - name: Copy Jacoco csv to resources TP2
-      run: cp TP2/src/main/resources/jfreechart-master/target/site/jacoco/jacoco.csv TP2/src/main/resources/jacoco.csv
+      run: cp TP2/src/main/resources/jfreechart/target/site/jacoco/jacoco.csv TP2/src/main/resources/jacoco.csv
 
     - name: Commit and push Jacoco csv file
       env:
@@ -51,13 +51,13 @@ jobs:
     #   uses: actions/upload-artifact@v2
     #   with:
     #     name: jfreechart-target
-    #     path: TP2/src/main/resources/jfreechart-master/target/
+    #     path: TP2/src/main/resources/jfreechart/target/
     
     - name: Upload JaCoCo report
       uses: actions/upload-artifact@v2
       with:
         name: jacoco-report
-        path: TP2/src/main/resources/jfreechart-master/target/site/jacoco/
+        path: TP2/src/main/resources/jfreechart/target/site/jacoco/
         
     # - name: Upload TP2 target files
     #   uses: actions/upload-artifact@v2
