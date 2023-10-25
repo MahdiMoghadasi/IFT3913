@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1cdb776a-7c9f-41c6-8286-9767236adcab" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2/src/main/java/org/example/TLS.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/src/main/java/org/example/TLS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2/src/main/resources/jfreechart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/src/main/resources/jfreechart/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697737832875</updated>
       <workItem from="1697737834692" duration="26430000" />
-      <workItem from="1698267904888" duration="1107000" />
+      <workItem from="1698267904888" duration="4499000" />
     </task>
     <servers />
   </component>
