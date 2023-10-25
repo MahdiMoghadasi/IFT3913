@@ -35,15 +35,17 @@ jobs:
       run: cp TP2/src/main/resources/jfreechart/target/site/jacoco/jacoco.csv TP2/src/main/resources/jacoco.csv
 
     - name: Commit and push Jacoco csv file
-      env:
-        PERSONAL_ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add TP2/src/main/resources/jacoco.csv
-        git commit -m "Update Jacoco csv file"
-        git remote set-url origin https://x-access-token:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/MahdiMoghadasi/IFT3913.git
-        git push
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Update Jacoco csv file"
+          git remote set-url origin https://github.com/MahdiMoghadasi/IFT3913.git
+          git push
+        fi
         
     - name: Build TP2 with Maven
       run: |
