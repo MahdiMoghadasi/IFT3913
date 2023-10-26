@@ -7,7 +7,7 @@ public class CommenCount {
     private static int totalCodeLines = 0;
 
     public static void main(String[] args) throws IOException {
-        File dir = new File("C:/Users/HP/Documents/GitHub/TP1-IFT3913/TP2/src/main/resources/jfreechart"); // Remplacez par votre chemin
+        File dir = new File("TP2/src/main/resources/jfreechart"); // Remplacez par votre chemin
         analyzeDirectory(dir);
 
         // Calculer la densité de commentaire
