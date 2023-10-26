@@ -1,56 +1,43 @@
+
 package org.example;
 
 import org.eclipse.jgit.api.Git;
-import org.eclipse.jgit.api.errors.GitAPIException;
 import org.eclipse.jgit.revwalk.RevCommit;
+import org.eclipse.jgit.storage.file.FileRepositoryBuilder;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
 
 public class CodeTestRatio {
 
     public static void main(String[] args) {
-        // Remplacez par le chemin absolu du répertoire de votre dépôt Git
-        String localPath = "C:/Users/HP/Documents/GitHub/TP1-IFT3913/TP2/src/main/resources/jfreechart/";
 
-        // Maps pour stocker les informations des commits
-        Map<String, String> lastCommitsTests = new HashMap<>();
-        Map<String, String> lastCommitsCode = new HashMap<>();
-
-        try (Git git = Git.open(new File(localPath))) { // Ouverture du référentiel
-            Iterable<RevCommit> commits = git.log().all().call();
-
+        String repoPath = ".git/modules/TP2/src/main/resources/jfreechart";
+        FileRepositoryBuilder builder = new FileRepositoryBuilder();
+        try {
+            Git git = Git.open(new File(repoPath));
+            Iterable<RevCommit> commits = git.log().call();
+            int totalCommits = 0;
+            int testCommits = 0;
+            int codeCommits = 0;
             for (RevCommit commit : commits) {
-                // Cette logique suppose que les messages de commit indiquent clairement s'il s'agit d'un commit de test ou de code.
-                String message = commit.getFullMessage().toLowerCase();
-
-                if (message.contains("test")) { // Ceci est un critère simpliste
-                    lastCommitsTests.put(commit.getName(), message);
+                totalCommits++;
+                String commitMessage = commit.getFullMessage().toLowerCase();
+                if (commitMessage.contains("test")) {
+                    testCommits++;
                 } else {
-                    lastCommitsCode.put(commit.getName(), message);
+                    codeCommits++;
                 }
             }
-
-            // Calculer les métriques après avoir parcouru tous les commits
-            int codeChanges = lastCommitsCode.size();
-            int testChanges = lastCommitsTests.size();
-
-            // Éviter la division par zéro
-            if (testChanges == 0) {
-                System.out.println("Aucun changement de test détecté ou division par zéro évitée.");
-            } else {
-                double codeToTestRatio = (double) codeChanges / testChanges;
-                System.out.println("Ratio de Modification Code/Test : " + codeToTestRatio);
-            }
-
-        } catch (GitAPIException e) {
-            System.err.println("Erreur lors de l'interaction avec le dépôt Git - " + e.getMessage());
-            e.printStackTrace();  // Pour plus de détails sur l'erreur
-        } catch (IOException e) {
-            System.err.println("Erreur d'entrée/sortie - " + e.getMessage());
-            e.printStackTrace();  // Pour plus de détails sur l'erreur
+            double testCommitFrequency = (double) testCommits / totalCommits;
+            double testModificationRatio = (double) testCommits / codeCommits;
+            System.out.println("Total Commits: " + totalCommits);
+            System.out.println("Test Commits: " + testCommits);
+            System.out.println("Code Commits: " + codeCommits);
+            System.out.println("Test Commit Frequency: " + testCommitFrequency);
+            System.out.println("Test Modification Ratio: " + testModificationRatio);
+        } catch (IOException | org.eclipse.jgit.api.errors.GitAPIException e) {
+            e.printStackTrace();
         }
     }
 }

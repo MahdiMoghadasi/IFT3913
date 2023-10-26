@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cdb776a-7c9f-41c6-8286-9767236adcab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2/src/main/java/org/example/CodeTestRatio.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/src/main/java/org/example/CodeTestRatio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,9 +71,16 @@
       <recent name="$PROJECT_DIR$/TP2/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Jacoco">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+  <component name="RunManager" selected="Application.CodeTestRatio">
+    <configuration name="CodeTestRatio (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeTestRatio" />
+      <module name="TP2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CodeTestRatio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.CodeTestRatio" />
       <module name="TP2" />
       <extension name="coverage">
         <pattern>
@@ -79,6 +88,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GitMetrics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GitMetrics" />
+      <module name="TP2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,32 +102,6 @@
     <configuration name="Jacoco" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Jacoco" />
       <module name="TP2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TAssert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.TAssert" />
-      <module name="tassert" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TLS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.TLS" />
-      <module name="tropcomp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -136,19 +126,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCodeMetrics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.TestCodeMetrics" />
+      <module name="TP2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.CodeTestRatio" />
+      <item itemvalue="Application.CodeTestRatio (1)" />
+      <item itemvalue="Application.GitMetrics" />
+      <item itemvalue="Application.TestCodeMetrics" />
       <item itemvalue="Application.Jacoco" />
-      <item itemvalue="Application.App" />
-      <item itemvalue="Application.TAssert" />
-      <item itemvalue="Application.TLS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CodeTestRatio" />
+        <item itemvalue="Application.GitMetrics" />
+        <item itemvalue="Application.CodeTestRatio (1)" />
+        <item itemvalue="Application.TestCodeMetrics" />
         <item itemvalue="Application.Jacoco" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.TLS" />
-        <item itemvalue="Application.TLS" />
-        <item itemvalue="Application.TAssert" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +165,8 @@
       <option name="presentableId" value="Default" />
       <updated>1697737832875</updated>
       <workItem from="1697737834692" duration="26430000" />
-      <workItem from="1698267904888" duration="4962000" />
+      <workItem from="1698267904888" duration="5924000" />
+      <workItem from="1698347086788" duration="7203000" />
     </task>
     <servers />
   </component>
@@ -185,7 +190,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/TP2/src/main/java/org/example/Jacoco.java</url>
           <line>11</line>
-          <properties class="org.example.Jacoco">
+          <properties class="org.example.Jacoco" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
