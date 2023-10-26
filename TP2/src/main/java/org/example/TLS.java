@@ -14,6 +14,33 @@ public class TLS {
     int tloc;
     int tassert;
 
+    public static void main(String[] args) {
+
+        String folderPath = "TP2/src/main/resources/jfreechart";
+
+        List<TLS> listTLS = new ArrayList<>();
+
+        try{
+            listTLS = createListTLS(folderPath);
+        }
+        catch (Exception e){
+
+        }
+
+        int tlocAllFiles = 0;
+        int tassertAllFiles = 0;
+        double ratioAllFiles;
+
+        for(TLS elem: listTLS){
+
+            tlocAllFiles += elem.tloc;
+            tassertAllFiles += elem.tassert;
+        }
+
+        ratioAllFiles = tlocAllFiles / (double) tassertAllFiles;
+
+        System.out.println(ratioAllFiles);
+    }
 
     public static int numTloc(String filePath) {
 
@@ -83,38 +110,6 @@ public class TLS {
         object.tloc = numTloc(javaFilePath.toString());
         object.tassert = numTAssert(javaFilePath.toString());
         listTLS.add(object);
-    }
-
-
-
-    public static double calculateTLS(){
-        String folderPath = "TP2/src/main/resources/jfreechart";
-
-
-        List<TLS> listTLS = new ArrayList<>();
-
-        try{
-            listTLS = createListTLS(folderPath);
-        }
-        catch (Exception e){
-
-        }
-
-        int tlocAllFiles = 0;
-        int tassertAllFiles = 0;
-        double ratioAllFiles;
-
-        for(TLS elem: listTLS){
-
-            tlocAllFiles += elem.tloc;
-            tassertAllFiles += elem.tassert;
-        }
-
-        ratioAllFiles = tlocAllFiles / (double) tassertAllFiles;
-
-
-        return ratioAllFiles;
-
     }
 
 }

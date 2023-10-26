@@ -5,7 +5,15 @@ public class App {
 
     public static void main(String[]args){
 
-        System.out.println(TLS.calculateTLS());
+        String[] newArgs = new String[0];
+        TLS.main(newArgs);
+        CodeTestRatio.main(newArgs);
+        try{
+            CommenCount.main(newArgs);
+        }
+        catch (Exception e){}
+        Jacoco.main(newArgs);
+
     }
 }
 

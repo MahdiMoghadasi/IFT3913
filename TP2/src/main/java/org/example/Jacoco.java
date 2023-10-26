@@ -41,14 +41,14 @@ public class Jacoco {
                 .mapToInt(c -> c.methodCovered)
                 .sum();
 
-        // Print results
-        System.out.println("Q1: Are there enough tests?");
+        // Q1
         System.out.println("Test Coverage Ratio: " + testCoverageRatio);
         System.out.println("Number of Classes with No Tests: " + classesWithNoTests);
         System.out.println("Method Coverage Ratio: " + methodCoverageRatio);
 
-        System.out.println("\nQ3: Are the tests too complex?");
-        System.out.println("Average Test Complexity: " + averageTestComplexity);
+
+        // Q3
+        System.out.println("\nAverage Test Complexity: " + averageTestComplexity);
         System.out.println("Maximum Test Complexity: " + maxTestComplexity);
         System.out.println("Average Method Complexity in Tests: " + averageMethodComplexityInTests);
     }
