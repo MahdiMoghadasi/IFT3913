@@ -1,74 +1,63 @@
 package org.example;
+
 import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.api.errors.GitAPIException;
+import org.eclipse.jgit.internal.storage.file.FileRepository;
 import org.eclipse.jgit.lib.Repository;
-import org.eclipse.jgit.lib.RepositoryBuilder;
 import org.eclipse.jgit.revwalk.RevCommit;
-import org.eclipse.jgit.revwalk.RevWalk;
 
-import java.io.File;
 import java.io.IOException;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
 public class CodeTestRatio {
 
     public static void main(String[] args) {
-        String localPath = "/path/to/jfreechart"; // chemin local vers votre dépôt
+        String localPath = "../resources/jfreechart/.git"; // Assurez-vous que c'est le chemin correct
 
-        // Construire le dépôt
-        Repository repository = null;
+        // Ouvrir le dépôt
+        Repository repository;
         try {
-            repository = new RepositoryBuilder()
-                    .setGitDir(new File(localPath))
-                    .readEnvironment()
-                    .findGitDir()
-                    .build();
+            repository = new FileRepository(localPath);
         } catch (IOException e) {
             e.printStackTrace();
             return;
         }
 
-        // Les structures pour conserver les informations des commits
-        Map<String, Date> lastCommitsTests = new HashMap<>();
-        Map<String, Date> lastCommitsCode = new HashMap<>();
+        // Maps pour stocker les informations des commits
+        Map<String, String> lastCommitsTests = new HashMap<>();
+        Map<String, String> lastCommitsCode = new HashMap<>();
 
         try (Git git = new Git(repository)) {
             Iterable<RevCommit> commits = git.log().all().call();
-            RevWalk walk = new RevWalk(repository);
-[15:16]
+
             for (RevCommit commit : commits) {
-                // Obtenez les détails du commit ici
-                String commitName = commit.getName(); // ou d'autres détails pertinents
-                Date commitDate = commit.getAuthorIdent().getWhen();
+                // Cette logique suppose que les messages de commit indiquent clairement s'il s'agit d'un commit de test ou de code.
+                // Une stratégie plus robuste serait d'examiner les fichiers réellement modifiés dans chaque commit.
+                String message = commit.getFullMessage().toLowerCase();
 
-                // Ici, vous devez déterminer si le commit appartient à un fichier de test ou à un fichier de code.
-                // Cela dépendra de votre projet spécifique. Habituellement, cela se fait en analysant le chemin ou le message du commit.
-                boolean isTestCommit = ... ; // à déterminer
-                boolean isCodeCommit = ... ; // à déterminer
-
-                if (isTestCommit) {
-                    // Mettre à jour la map des commits de test
-                    lastCommitsTests.put(commitName, commitDate);
-                } else if (isCodeCommit) {
-                    // Mettre à jour la map des commits de code
-                    lastCommitsCode.put(commitName, commitDate);
+                if (message.contains("test")) { // Ceci est un critère simpliste
+                    lastCommitsTests.put(commit.getName(), message);
+                } else {
+                    lastCommitsCode.put(commit.getName(), message);
                 }
             }
 
-            // Après avoir parcouru tous les commits, vous pouvez maintenant calculer vos métriques.
-            // Par exemple, pour calculer le Ratio de Modification Code/Test, vous pourriez faire quelque chose comme ceci :
+            // Calculer les métriques après avoir parcouru tous les commits
             int codeChanges = lastCommitsCode.size();
             int testChanges = lastCommitsTests.size();
 
-            double codeToTestRatio = (double) codeChanges / testChanges;
-            System.out.println("Ratio de Modification Code/Test : " + codeToTestRatio);
-
-            // ... et d'autres calculs pour différentes métriques.
+            // Éviter la division par zéro
+            if (testChanges == 0) {
+                System.out.println("Aucun changement de test détecté ou division par zéro évitée.");
+            } else {
+                double codeToTestRatio = (double) codeChanges / testChanges;
+                System.out.println("Ratio de Modification Code/Test : " + codeToTestRatio);
+            }
 
         } catch (GitAPIException | IOException e) {
             e.printStackTrace();
         }
     }
 }
+
