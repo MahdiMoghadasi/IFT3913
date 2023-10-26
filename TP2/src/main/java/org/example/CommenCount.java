@@ -7,12 +7,11 @@ public class CommenCount {
     private static int totalCodeLines = 0;
 
     public static void main(String[] args) throws IOException {
-        File dir = new File("TP2/src/main/resources/jfreechart"); // Remplacez par votre chemin
+        File dir = new File("TP2/src/main/resources/jfreechart");
         analyzeDirectory(dir);
-
-        // Calculer la densité de commentaire
+        
         double commentDensity = 0.0;
-        if (totalCodeLines > 0) { // Prévenir la division par zéro
+        if (totalCodeLines > 0) {
             commentDensity = (double) totalCommentLines / (double) totalCodeLines * 100;
         }
 
@@ -28,7 +27,7 @@ public class CommenCount {
                 if (file.isFile() && file.getName().endsWith("Test.java")) {
                     analyzeFile(file);
                 } else if (file.isDirectory()) {
-                    analyzeDirectory(file); // Récursion pour les sous-répertoires
+                    analyzeDirectory(file);
                 }
             }
         }
@@ -53,13 +52,12 @@ public class CommenCount {
             if (line.endsWith("*/")) {
                 insideBlockComment = false;
             }
-            // Compter toutes les lignes non vides comme lignes de code (y compris les lignes de commentaire)
+
             if (!line.isEmpty()) {
                 codeLines++;
             }
         }
 
-        // Mise à jour des totaux globaux
         totalCommentLines += commentLines;
         totalCodeLines += codeLines;
 
