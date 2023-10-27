@@ -10,7 +10,7 @@ public class App {
         TLS.main(newArgs);
         Jacoco.main(newArgs);
         try{
-            CommenCount.main(newArgs);
+            CommentCount.main(newArgs);
             AssertionsCounter.main(newArgs);
         }
         catch (Exception e){}

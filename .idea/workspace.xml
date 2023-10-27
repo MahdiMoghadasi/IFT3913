@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cdb776a-7c9f-41c6-8286-9767236adcab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TP2/src/main/java/org/example/AssertionsCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP2/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2/src/main/java/org/example/CodeTestRatio.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/src/main/java/org/example/CodeTestCommitRatio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2/src/main/java/org/example/Jacoco.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/src/main/java/org/example/Jacoco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP2/src/main/java/org/example/CommenCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/src/main/java/org/example/CommentCount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +70,7 @@
       <recent name="$PROJECT_DIR$/TP2/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.CommentCount">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="TP2" />
@@ -127,8 +123,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TLS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.TLS" />
+    <configuration name="CommentCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.CommentCount" />
       <module name="TP2" />
       <extension name="coverage">
         <pattern>
@@ -155,19 +151,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CommentCount" />
       <item itemvalue="Application.AssertionsCounter" />
       <item itemvalue="Application.CodeTestCommitRatio" />
       <item itemvalue="Application.CommenCount" />
       <item itemvalue="Application.App" />
-      <item itemvalue="Application.TLS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CommentCount" />
+        <item itemvalue="Application.CommenCount" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.AssertionsCounter" />
         <item itemvalue="Application.CodeTestCommitRatio" />
-        <item itemvalue="Application.TLS" />
-        <item itemvalue="Application.CommenCount" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +179,8 @@
       <workItem from="1698267904888" duration="5924000" />
       <workItem from="1698347086788" duration="10473000" />
       <workItem from="1698434394969" duration="1902000" />
-      <workItem from="1698437094323" duration="3319000" />
+      <workItem from="1698437094323" duration="3498000" />
+      <workItem from="1698445596683" duration="1062000" />
     </task>
     <servers />
   </component>
