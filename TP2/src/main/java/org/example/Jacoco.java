@@ -41,6 +41,22 @@ public class Jacoco {
                 .mapToInt(c -> c.methodCovered)
                 .sum();
 
+
+        double averageTestComplexityMissed = classes.stream()
+                .mapToDouble(c -> c.complexityMissed)
+                .average()
+                .orElse(0.0);
+        int maxTestComplexityMissed = classes.stream()
+                .mapToInt(c -> c.complexityMissed)
+                .max()
+                .orElse(0);
+        double averageMethodComplexityInTestsMissed = classes.stream()
+                .mapToInt(c -> c.complexityMissed)
+                .sum() / (double) classes.stream()
+                .mapToInt(c -> c.methodMissed)
+                .sum();
+
+
         // Q1
         System.out.println("Test Coverage Ratio: " + testCoverageRatio);
         System.out.println("Number of Classes with No Tests: " + classesWithNoTests);
@@ -51,6 +67,11 @@ public class Jacoco {
         System.out.println("\nAverage Test Complexity: " + averageTestComplexity);
         System.out.println("Maximum Test Complexity: " + maxTestComplexity);
         System.out.println("Average Method Complexity in Tests: " + averageMethodComplexityInTests);
+        System.out.println("\nAverage Test Complexity missed: " + averageTestComplexityMissed);
+        System.out.println("Maximum Test Complexity missed: " + maxTestComplexityMissed);
+        System.out.println("Average Method Complexity in Tests missed: " + averageMethodComplexityInTestsMissed);
+
+
     }
 
     private static List<ClassData> readCsvFile(String filePath) {

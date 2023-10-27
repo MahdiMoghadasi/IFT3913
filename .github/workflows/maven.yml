@@ -46,7 +46,7 @@ jobs:
           git remote set-url origin https://github.com/MahdiMoghadasi/IFT3913.git
           git push
         fi
-        
+
     - name: Build TP2 with Maven
       run: |
         cd TP2

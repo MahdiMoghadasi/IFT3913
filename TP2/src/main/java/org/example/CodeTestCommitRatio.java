@@ -8,7 +8,7 @@ import org.eclipse.jgit.storage.file.FileRepositoryBuilder;
 import java.io.File;
 import java.io.IOException;
 
-public class CodeTestRatio {
+public class CodeTestCommitRatio {
 
     public static void main(String[] args) {
 
