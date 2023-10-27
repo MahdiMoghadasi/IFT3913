@@ -7,8 +7,6 @@
     <list default="true" id="1cdb776a-7c9f-41c6-8286-9767236adcab" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2/src/main/java/org/example/Jacoco.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/src/main/java/org/example/Jacoco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP2/src/main/java/org/example/TLS.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/src/main/java/org/example/TLS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +70,7 @@
       <recent name="$PROJECT_DIR$/TP2/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.CodeTestRatio">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="TP2" />
@@ -161,11 +159,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.TLS" />
-        <item itemvalue="Application.org.example.GitMetrics" />
-        <item itemvalue="Application.CommenCount" />
         <item itemvalue="Application.CodeTestRatio" />
+        <item itemvalue="Application.TLS" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.CommenCount" />
+        <item itemvalue="Application.org.example.GitMetrics" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +177,7 @@
       <updated>1697737832875</updated>
       <workItem from="1697737834692" duration="26430000" />
       <workItem from="1698267904888" duration="5924000" />
-      <workItem from="1698347086788" duration="9090000" />
+      <workItem from="1698347086788" duration="9581000" />
     </task>
     <servers />
   </component>

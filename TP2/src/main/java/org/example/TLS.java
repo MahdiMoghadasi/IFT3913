@@ -39,7 +39,7 @@ public class TLS {
 
         ratioAllFiles = tlocAllFiles / (double) tassertAllFiles;
 
-        System.out.println(ratioAllFiles);
+        System.out.println("TLS: " + ratioAllFiles);
     }
 
     public static int numTloc(String filePath) {
