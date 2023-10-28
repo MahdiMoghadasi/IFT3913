@@ -31,7 +31,7 @@ Les principaux composants du projet sont les suivants:
    En plus, tous les fichiers `.java` peuvent être exécutés individuellement, 
    chacun ayant une méthode main et des métriques associées.
 
-## Flux de Travail & Artéfacts
+## Workflow & Artifacts
 Le projet possède un workflow automatisé sur github. Après un build réussie, 
 l'artefact `jacoco-report` est généré et offre des informations sur les métriques Jacoco. 
 Il peut être téléchargé pour une analyse détaillée dans l'onglet action de github.
