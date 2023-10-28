@@ -67,10 +67,13 @@ public class Jacoco {
         System.out.println("\nAverage Test Complexity: " + averageTestComplexity);
         System.out.println("Maximum Test Complexity: " + maxTestComplexity);
         System.out.println("Average Method Complexity in Tests: " + averageMethodComplexityInTests);
+
+        //missed complexity
         System.out.println("\nAverage Test Complexity missed: " + averageTestComplexityMissed);
         System.out.println("Maximum Test Complexity missed: " + maxTestComplexityMissed);
         System.out.println("Average Method Complexity in Tests missed: " + averageMethodComplexityInTestsMissed);
 
+        System.out.print( "Percentage of average Complexity Covered: " + averageTestComplexity / (averageTestComplexity + averageTestComplexityMissed));
 
     }
 
