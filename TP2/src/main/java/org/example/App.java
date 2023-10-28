@@ -12,6 +12,7 @@ public class App {
         try{
             CommentCount.main(newArgs);
             AssertionsCounter.main(newArgs);
+            CodeChurnCalculator.main(newArgs);
         }
         catch (Exception e){}
     }
