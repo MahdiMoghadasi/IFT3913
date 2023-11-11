@@ -38,8 +38,8 @@ JFreeChart-2.0,org.jfree.chart.plot,CombinedDomainCategoryPlot,318,551,49,47,78,
 JFreeChart-2.0,org.jfree.chart.plot,XYPlot,2390,4626,379,519,546,1220,328,358,64,173
 JFreeChart-2.0,org.jfree.chart.plot,ValueMarker,11,57,1,7,3,19,2,8,1,5
 JFreeChart-2.0,org.jfree.chart.plot,SpiderWebPlot,214,1402,40,92,59,367,49,80,16,47
-JFreeChart-2.0,org.jfree.chart.plot,Marker,52,495,7,35,13,136,10,49,3,35
 JFreeChart-2.0,org.jfree.chart.plot,CategoryPlot,1900,4103,332,462,406,1123,272,351,50,176
+JFreeChart-2.0,org.jfree.chart.plot,Marker,52,495,7,35,13,136,10,49,3,35
 JFreeChart-2.0,org.jfree.chart.plot,CrosshairState,141,53,15,1,36,24,14,13,6,13
 JFreeChart-2.0,org.jfree.chart.plot,CategoryCrosshairState,88,29,11,1,25,13,7,6,1,6
 JFreeChart-2.0,org.jfree.chart.plot,CenterTextMode,0,21,0,0,0,4,0,1,0,1
@@ -144,8 +144,8 @@ JFreeChart-2.0,org.jfree.chart.axis,DateTickMarkPosition,0,21,0,0,0,4,0,1,0,1
 JFreeChart-2.0,org.jfree.chart.axis,TickType,0,15,0,0,0,3,0,1,0,1
 JFreeChart-2.0,org.jfree.chart.axis,MarkerAxisBand,201,103,9,13,45,28,10,8,4,3
 JFreeChart-2.0,org.jfree.chart.axis,NumberTick,3,25,0,0,1,6,1,2,1,2
-JFreeChart-2.0,org.jfree.chart.axis,CategoryLabelWidthType,0,15,0,0,0,3,0,1,0,1
 JFreeChart-2.0,org.jfree.chart.axis,CategoryLabelPosition,4,164,2,14,2,45,2,18,0,12
+JFreeChart-2.0,org.jfree.chart.axis,CategoryLabelWidthType,0,15,0,0,0,3,0,1,0,1
 JFreeChart-2.0,org.jfree.chart.axis,ValueAxis,632,1186,97,113,165,326,93,82,22,48
 JFreeChart-2.0,org.jfree.chart.axis,CyclicNumberAxis,1452,156,191,15,344,54,118,20,21,14
 JFreeChart-2.0,org.jfree.chart.axis,StandardTickUnitSource,49,13,1,1,10,5,5,3,4,3
@@ -295,8 +295,8 @@ JFreeChart-2.0,org.jfree.chart.swing,ChartMouseEvent,22,0,0,0,8,0,4,0,4,0
 JFreeChart-2.0,org.jfree.chart.swing,AbstractOverlay,33,29,3,1,8,9,4,3,2,3
 JFreeChart-2.0,org.jfree.chart.swing,DefaultSelectionZoomStrategy,313,0,22,0,86,0,29,0,18,0
 JFreeChart-2.0,org.jfree.chart.swing,NumberCellRenderer,34,0,4,0,12,0,4,0,2,0
-JFreeChart-2.0,org.jfree.chart.swing,OverlayChangeEvent,0,4,0,0,0,2,0,1,0,1
 JFreeChart-2.0,org.jfree.chart.swing,UIUtils,203,0,6,0,47,0,12,0,9,0
+JFreeChart-2.0,org.jfree.chart.swing,OverlayChangeEvent,0,4,0,0,0,2,0,1,0,1
 JFreeChart-2.0,org.jfree.chart.renderer.category,MinMaxCategoryRenderer,241,328,22,14,56,70,24,13,9,10
 JFreeChart-2.0,org.jfree.chart.renderer.category,LevelRenderer,171,342,25,23,31,88,25,12,3,10
 JFreeChart-2.0,org.jfree.chart.renderer.category,CategoryStepRenderer.State,9,0,0,0,3,0,1,0,1,0
