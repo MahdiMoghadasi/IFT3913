@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1cdb776a-7c9f-41c6-8286-9767236adcab" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP2/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP2/src/main/java/org/example/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <recent name="$PROJECT_DIR$/TP2/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.CodeChurnCalculator">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="TP2" />
@@ -158,9 +157,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CodeChurnCalculator" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.AssertionsCounter" />
-        <item itemvalue="Application.CodeChurnCalculator" />
         <item itemvalue="Application.Jacoco" />
         <item itemvalue="Application.CommentCount" />
       </list>
@@ -179,7 +178,7 @@
       <workItem from="1698347086788" duration="10473000" />
       <workItem from="1698434394969" duration="1902000" />
       <workItem from="1698437094323" duration="3498000" />
-      <workItem from="1698445596683" duration="12117000" />
+      <workItem from="1698445596683" duration="13789000" />
     </task>
     <servers />
   </component>
