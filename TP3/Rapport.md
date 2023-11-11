@@ -19,9 +19,9 @@ pour le i nous avons prit la precision dans le cours qui dit :
 si i est inférieur à la valeur minimale possible pour la variable (min), alors i = min
 
 #### Interprétation des distributions :
-- La distribution de **TLOC** est très étendue, avec un écart-type élevé, indiquant une grande variabilité dans le nombre de lignes de code entre les différentes classes. La valeur maximale est beaucoup plus grande que la médiane, ce qui suggère la présence de valeurs extrêmes ou de "outliers".
-- Pour **WMC**, les valeurs sont plus concentrées, mais il y a encore une dispersion significative, comme en témoignent l'écart-type et la différence entre la médiane et le maximum.
-- **TASSERT** présente également une grande variabilité et un certain nombre de valeurs extrêmes, ce qui est mis en évidence par la différence entre la médiane et le maximum et un écart-type relativement élevé par rapport à la moyenne.
+- On voit que **TLOC** n'as pas une distribution normale. De plus ca distribution est très étendue, avec un écart-type élevé, indiquant une grande variabilité dans le nombre de lignes de code entre les différentes classes. La valeur maximale est beaucoup plus grande que la médiane, ce qui suggère la présence de points extrêmes.
+- Pour **WMC** nous n'avons pas non plus une distribution normale, les valeurs sont plus concentrées, mais il y a encore une dispersion significative, comme en témoignent l'écart-type et la différence entre la médiane et le maximum.
+- **TASSERT** ne possede pas non plus une distribution normale et présente également une grande variabilité et un certain nombre de points extrêmes, ce qui est mis en évidence par la différence entre la médiane et le maximum ainsi qu'un écart-type relativement élevé par rapport à la moyenne.
 
-Les distributions pour TLOC et TASSERT semblent être fortement influencées par les valeurs extrêmes, comme on peut le voir par les longues moustaches dans les boîtes à moustaches. En revanche, WMC a une distribution plus concentrée, avec des valeurs extrêmes moins marquées.
+Les distributions pour TLOC et TASSERT semblent être fortement influencées par les points extrêmes, comme on peut le voir par les longues moustaches dans les boîtes à moustaches. En revanche, WMC a une distribution plus concentrée, avec des points extrêmes moins marquées.
 **
