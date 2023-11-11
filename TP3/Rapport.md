@@ -4,6 +4,7 @@ Mahdi Moghadasi    20184188
 Ibrahim Ould Saada 20151421
 
 ### T1. Visualisation des Métriques et Calcul des Informations Pertinentes
+![boxplot](images/boxplot.png)
  voici un résumé des statistiques descriptives pour les trois métriques :
 
 | Métrique | Nombre d'observations | Moyenne | Écart-type | Minimum | l              | m                        | u              | Maximum | s | i | d| 
@@ -11,10 +12,9 @@ Ibrahim Ould Saada 20151421
 | TLOC     | 351                   | 115.13  | 130.87     | 3       | 47.5           | 83                       | 124.5          | 1045    | 240  | 0 (-68)|77
 | WMC      | 351                   | 11.58   | 6.53       | 7       | 8              | 9                        | 12             | 64      | 18 | 2|4
 | TASSERT  | 351                   | 27.19   | 34.80      | 1       | 10             | 17                       | 32             | 265     | 65 | 0 (-23)|22
-
-
-`![boxplot](images/boxplot.png)`
-
+![boxplot](images/Histogram-TLOC.png)
+![boxplot](images/Histogram-WMC.png)
+![boxplot](images/Histogram-Tassert.png)
 pour le i nous avons prit la precision dans le cours qui dit :
 si i est inférieur à la valeur minimale possible pour la variable (min), alors i = min
 
