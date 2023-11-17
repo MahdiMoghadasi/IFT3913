@@ -17,6 +17,10 @@ Les principaux composants du projet sont les suivants:
   
 - **Images** : Toutes les images utilisées dans le rapport se trouvent dans le repertoire `images`.
 
+
+- **rapport-latex** : Ce doissier continet le rapport en format latex, ainsi le pdf et les images utilisées.
+                      Nous avons utilisé le site overleaf pour écrire et compiler le rapport.
+
 - **jfreechart-test-stats.csv** : Le fichier .csv qui contient toutes les données sur lesquelles on fait l'analyse.
 
 
