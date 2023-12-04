@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cdb776a-7c9f-41c6-8286-9767236adcab" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/TP4/CurrencyConverter.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP4/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP4/src/test/MainWindowTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
