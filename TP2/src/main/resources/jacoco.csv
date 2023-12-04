@@ -219,8 +219,8 @@ JFreeChart-2.0,org.jfree.chart.entity,CategoryItemEntity,45,49,5,5,16,13,12,2,7,
 JFreeChart-2.0,org.jfree.chart.entity,PlotEntity,111,12,12,0,34,4,15,1,9,1
 JFreeChart-2.0,org.jfree.chart.entity,PieSectionEntity,40,77,2,10,12,26,8,10,6,6
 JFreeChart-2.0,org.jfree.chart.entity,LegendItemEntity,20,49,3,7,6,16,6,7,3,5
-JFreeChart-2.0,org.jfree.chart.entity,FlowEntity,22,30,1,3,6,9,4,3,3,2
 JFreeChart-2.0,org.jfree.chart.entity,CategoryLabelEntity,48,30,2,4,12,9,5,3,3,2
+JFreeChart-2.0,org.jfree.chart.entity,FlowEntity,22,30,1,3,6,9,4,3,3,2
 JFreeChart-2.0,org.jfree.chart.entity,XYItemEntity,24,54,2,8,8,18,7,7,5,4
 JFreeChart-2.0,org.jfree.chart.entity,TickLabelEntity,0,6,0,0,0,2,0,1,0,1
 JFreeChart-2.0,org.jfree.chart.entity,JFreeChartEntity,98,25,12,0,30,8,13,3,7,3
@@ -295,8 +295,8 @@ JFreeChart-2.0,org.jfree.chart.swing,ChartMouseEvent,22,0,0,0,8,0,4,0,4,0
 JFreeChart-2.0,org.jfree.chart.swing,AbstractOverlay,33,29,3,1,8,9,4,3,2,3
 JFreeChart-2.0,org.jfree.chart.swing,DefaultSelectionZoomStrategy,313,0,22,0,86,0,29,0,18,0
 JFreeChart-2.0,org.jfree.chart.swing,NumberCellRenderer,34,0,4,0,12,0,4,0,2,0
-JFreeChart-2.0,org.jfree.chart.swing,UIUtils,203,0,6,0,47,0,12,0,9,0
 JFreeChart-2.0,org.jfree.chart.swing,OverlayChangeEvent,0,4,0,0,0,2,0,1,0,1
+JFreeChart-2.0,org.jfree.chart.swing,UIUtils,203,0,6,0,47,0,12,0,9,0
 JFreeChart-2.0,org.jfree.chart.renderer.category,MinMaxCategoryRenderer,241,328,22,14,56,70,24,13,9,10
 JFreeChart-2.0,org.jfree.chart.renderer.category,LevelRenderer,171,342,25,23,31,88,25,12,3,10
 JFreeChart-2.0,org.jfree.chart.renderer.category,CategoryStepRenderer.State,9,0,0,0,3,0,1,0,1,0
@@ -316,8 +316,8 @@ JFreeChart-2.0,org.jfree.chart.renderer.category,MinMaxCategoryRenderer.new Icon
 JFreeChart-2.0,org.jfree.chart.renderer.category,MinMaxCategoryRenderer.new Icon() {...},50,21,4,0,12,1,5,1,3,1
 JFreeChart-2.0,org.jfree.chart.renderer.category,CategoryItemRendererState,32,60,5,5,10,21,7,9,3,8
 JFreeChart-2.0,org.jfree.chart.renderer.category,AbstractCategoryItemRenderer,977,911,121,91,260,275,94,71,11,48
-JFreeChart-2.0,org.jfree.chart.renderer.category,StackedBarRenderer,380,68,77,7,89,24,43,8,3,6
 JFreeChart-2.0,org.jfree.chart.renderer.category,BoxAndWhiskerRenderer,653,1038,77,85,120,253,74,41,12,22
+JFreeChart-2.0,org.jfree.chart.renderer.category,StackedBarRenderer,380,68,77,7,89,24,43,8,3,6
 JFreeChart-2.0,org.jfree.chart.renderer.category,IntervalBarRenderer,81,169,15,15,18,46,14,6,0,5
 JFreeChart-2.0,org.jfree.chart.renderer.category,WaterfallBarRenderer,285,310,40,22,74,76,27,19,5,10
 JFreeChart-2.0,org.jfree.chart.renderer.category,GradientBarPainter,110,595,28,22,33,115,19,15,0,9
@@ -331,8 +331,8 @@ JFreeChart-2.0,org.jfree.chart.renderer.xy,XYDifferenceRenderer,1616,254,206,18,
 JFreeChart-2.0,org.jfree.chart.renderer.xy,XYBoxAndWhiskerRenderer,741,515,62,30,130,123,47,22,5,18
 JFreeChart-2.0,org.jfree.chart.renderer.xy,DefaultXYItemRenderer,0,3,0,0,0,1,0,1,0,1
 JFreeChart-2.0,org.jfree.chart.renderer.xy,XYLineAndShapeRenderer.State,7,24,0,0,3,7,2,2,2,2
-JFreeChart-2.0,org.jfree.chart.renderer.xy,DeviationRenderer,362,51,32,6,69,16,26,5,8,4
 JFreeChart-2.0,org.jfree.chart.renderer.xy,AbstractXYItemRenderer,1352,947,138,84,346,266,107,60,18,36
+JFreeChart-2.0,org.jfree.chart.renderer.xy,DeviationRenderer,362,51,32,6,69,16,26,5,8,4
 JFreeChart-2.0,org.jfree.chart.renderer.xy,XYBarRenderer.XYBarRendererState,14,0,0,0,6,0,3,0,3,0
 JFreeChart-2.0,org.jfree.chart.renderer.xy,XYAreaRenderer2,146,406,22,18,32,106,19,13,1,11
 JFreeChart-2.0,org.jfree.chart.renderer.xy,XYBubbleRenderer,292,138,35,12,62,39,25,6,2,5
