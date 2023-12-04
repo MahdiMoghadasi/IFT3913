@@ -1,14 +1,9 @@
 package test;
 
 import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.Test;
 import currencyConverter.Currency;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
-import org.junit.jupiter.params.provider.MethodSource;
-
-import java.util.concurrent.TimeUnit;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 

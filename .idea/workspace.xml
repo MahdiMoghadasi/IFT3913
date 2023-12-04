@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cdb776a-7c9f-41c6-8286-9767236adcab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TP4/src/test/CurrencyBlackBoxTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP4/src/test/MainWindowBlackBoxTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-params-5.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-platform-engine-1.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.2.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4/out/production/test/CurrencyBlackBoxTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/out/production/test/CurrencyBlackBoxTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4/src/test/CurrencyBlackBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/src/test/CurrencyBlackBoxTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -99,25 +91,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="currencyConverter" />
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CurrencyBlackBoxTest">
-    <configuration name="CurrencyConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="currencyConverter.CurrencyConverter" />
-      <module name="TP4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="currencyConverter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MainWindowBlackBoxTest">
     <configuration name="CurrencyBlackBoxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP4" />
       <extension name="coverage">
@@ -165,7 +143,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurrencyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainWindowBlackBoxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP4" />
       <extension name="coverage">
         <pattern>
@@ -174,26 +152,41 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.CurrencyTest" />
+      <option name="MAIN_CLASS_NAME" value="test.MainWindowBlackBoxTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainWindowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MainWindowTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CurrencyConverter" />
       <item itemvalue="JUnit.CurrencyBlackBoxTest" />
       <item itemvalue="JUnit.CurrencyBlackBoxTest.testCurrencyConversion" />
       <item itemvalue="JUnit.CurrencyBlackBoxTest.testNegativeConversionRate" />
-      <item itemvalue="JUnit.CurrencyTest" />
+      <item itemvalue="JUnit.MainWindowBlackBoxTest" />
+      <item itemvalue="JUnit.MainWindowTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainWindowBlackBoxTest" />
         <item itemvalue="JUnit.CurrencyBlackBoxTest" />
+        <item itemvalue="JUnit.MainWindowTest" />
         <item itemvalue="JUnit.CurrencyBlackBoxTest.testNegativeConversionRate" />
         <item itemvalue="JUnit.CurrencyBlackBoxTest.testCurrencyConversion" />
-        <item itemvalue="Application.CurrencyConverter" />
-        <item itemvalue="JUnit.CurrencyTest" />
       </list>
     </recent_temporary>
   </component>
