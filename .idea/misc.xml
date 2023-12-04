@@ -6,7 +6,13 @@
       <list>
         <option value="$PROJECT_DIR$/TP1/pom.xml" />
         <option value="$PROJECT_DIR$/TP2/pom.xml" />
+        <option value="$PROJECT_DIR$/TP4/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/TP4/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
