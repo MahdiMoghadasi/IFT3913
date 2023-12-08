@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cdb776a-7c9f-41c6-8286-9767236adcab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TP4/analyse/all-paths.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP4/analyse/find_independant_paths.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP4/src/test/CurrencyWhiteBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/src/test/CurrencyWhiteBoxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4/analyse/chemin independant.txt" beforeDir="false" />
     </list>
-    <list id="b841a49d-c882-41d2-abad-6cc2d9c3d7a7" name="Changes by HP" comment="" />
+    <list id="b841a49d-c882-41d2-abad-6cc2d9c3d7a7" name="Changes by HP" comment="">
+      <change beforePath="$PROJECT_DIR$/TP4/src/test/MainWindowWhiteBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/src/test/MainWindowWhiteBoxTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -216,7 +220,8 @@
       <workItem from="1701913519130" duration="4924000" />
       <workItem from="1701919073189" duration="1014000" />
       <workItem from="1701977851162" duration="15145000" />
-      <workItem from="1702052328878" duration="3226000" />
+      <workItem from="1702052328878" duration="6118000" />
+      <workItem from="1702060670088" duration="591000" />
     </task>
     <servers />
   </component>
