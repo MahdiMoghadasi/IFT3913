@@ -47,8 +47,18 @@ public class CurrencyWhiteBoxTest {
     }
 
     @Test
+    public void testNegativeValuesInifinity() {
+        assertThrows(IllegalArgumentException.class, () -> Currency.convert(Double.MAX_VALUE * -1, 1.2));
+    }
+
+    @Test
     public void testOutOfBoundary() {
         assertThrows(IllegalArgumentException.class, () -> Currency.convert(1000001.0, 1.2));
+    }
+
+    @Test
+    public void testOutOfBoundaryMaxValue() {
+        assertThrows(IllegalArgumentException.class, () -> Currency.convert(    Double.MAX_VALUE, 1.2));
     }
 
     @Test
@@ -62,4 +72,31 @@ public class CurrencyWhiteBoxTest {
         assertEquals(expectedResult, result, 0.001);
     }
 
+    @Test
+    public void testConversionWithNullAmount() {
+        Double exchangeValue = 1.2;
+        assertThrows(NullPointerException.class, () -> {
+            Currency.convert(null, exchangeValue);
+        });
+    }
+
+    @Test
+    public void testConversionWithNullExchangeValue() {
+        Double amount = 100.00;
+        assertThrows(NullPointerException.class, () -> {
+            Currency.convert(amount, null);
+        });
+    }
+
+
+    @Test
+    public void testConversionWithBothNull() {
+        assertThrows(NullPointerException.class, () -> {
+            Currency.convert(null, null);
+        });
+    }
+
+
+
 }
+
