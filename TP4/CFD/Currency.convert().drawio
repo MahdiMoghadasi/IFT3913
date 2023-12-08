@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2023-12-07T21:37:32.179Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="VNYL9ZBGibl_t_cLWPTJ" version="21.1.8" type="device">
+  <diagram name="Page-1" id="3TWUvZ5Rk1py71Z479T_">
+    <mxGraphModel dx="2049" dy="890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1wrtnPbaSpCz-usxBblL-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1wrtnPbaSpCz-usxBblL-1" target="1wrtnPbaSpCz-usxBblL-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1wrtnPbaSpCz-usxBblL-1" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 12px; line-height: 18px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt;        &lt;/span&gt;&lt;span style=&quot;color: #267f99;&quot;&gt;Double&lt;/span&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #001080;&quot;&gt;price&lt;/span&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="180" y="230" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1wrtnPbaSpCz-usxBblL-5" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;public static Double &lt;span style=&quot;color:#56a8f5;&quot;&gt;convert&lt;/span&gt;(Double amount, Double exchangeValue) {&lt;br&gt;    Double price;&lt;br&gt;    price = amount * exchangeValue;&lt;br&gt;    price = Math.&lt;span style=&quot;font-style:italic;&quot;&gt;round&lt;/span&gt;(price * &lt;span style=&quot;color:#2aacb8;&quot;&gt;100d&lt;/span&gt;) / &lt;span style=&quot;color:#2aacb8;&quot;&gt;100d&lt;/span&gt;;&lt;br&gt;    &lt;br&gt;    &lt;span style=&quot;color:#cf8e6d;&quot;&gt;return &lt;/span&gt;price;&lt;br&gt;}&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="440" y="300" width="530" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="1wrtnPbaSpCz-usxBblL-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1wrtnPbaSpCz-usxBblL-7" target="1wrtnPbaSpCz-usxBblL-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1wrtnPbaSpCz-usxBblL-7" value="&lt;pre style=&quot;border-color: var(--border-color); color: rgb(188, 190, 196); text-align: left; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 18px;&quot;&gt;&lt;div&gt;        price = amount &lt;span style=&quot;color: #000000;&quot;&gt;*&lt;/span&gt; exchangeValue;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="180" y="350" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1wrtnPbaSpCz-usxBblL-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1wrtnPbaSpCz-usxBblL-8" target="1wrtnPbaSpCz-usxBblL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1wrtnPbaSpCz-usxBblL-8" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 12px; line-height: 18px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt;        price &lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #001080;&quot;&gt;Math&lt;/span&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #795e26;&quot;&gt;round&lt;/span&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt;(price &lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt;*&lt;/span&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #098658;&quot;&gt;100d&lt;/span&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt;) &lt;/span&gt;&lt;span style=&quot;color: #000000;&quot;&gt;/&lt;/span&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #098658;&quot;&gt;100d&lt;/span&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="180" y="470" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1wrtnPbaSpCz-usxBblL-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1wrtnPbaSpCz-usxBblL-9" target="1wrtnPbaSpCz-usxBblL-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1wrtnPbaSpCz-usxBblL-9" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;div style=&quot;color: rgb(59, 59, 59); background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 12px; line-height: 18px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt;        &lt;/span&gt;&lt;span style=&quot;color: #af00db;&quot;&gt;return&lt;/span&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt; price;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="180" y="600" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1wrtnPbaSpCz-usxBblL-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1wrtnPbaSpCz-usxBblL-13" target="1wrtnPbaSpCz-usxBblL-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1wrtnPbaSpCz-usxBblL-13" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 12px; line-height: 18px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#267f99&quot;&gt;start&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(59, 59, 59);&quot;&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="180" y="100" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1wrtnPbaSpCz-usxBblL-14" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 12px; line-height: 18px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font color=&quot;#267f99&quot;&gt;end&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(59, 59, 59);&quot;&gt;&lt;span style=&quot;color: #3b3b3b;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="180" y="730" width="100" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

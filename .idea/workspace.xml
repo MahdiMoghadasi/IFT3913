@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cdb776a-7c9f-41c6-8286-9767236adcab" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP4/src/test/CurrencyWhiteBoxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP4/src/test/MainWindowWhiteBoxTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP4/out/production/test/MainWindowBlackBoxTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/out/production/test/MainWindowBlackBoxTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TP4/src/test/MainWindowBlackBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/src/test/MainWindowBlackBoxTest.java" afterDir="false" />
     </list>
-    <list id="a93998ed-9285-48dc-89af-0deac44b8411" name="Changes by HP" comment="">
-      <change beforePath="$PROJECT_DIR$/TP4/src/test/MainWindowBlackBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/src/test/MainWindowBlackBoxTest.java" afterDir="false" />
-    </list>
+    <list id="b841a49d-c882-41d2-abad-6cc2d9c3d7a7" name="Changes by HP" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,22 +42,6 @@
         <option name="url" value="https://github.com/MahdiMoghadasi/IFT3913.git" />
       </UrlAndAccount>
     </option>
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/TP4/src/test/MainWindowBlackBoxTest.java">
-      <ranges>
-        <range start1="1" end1="2" start2="1" end2="1" changelist="1cdb776a-7c9f-41c6-8286-9767236adcab" />
-        <range start1="8" end1="8" start2="7" end2="9" changelist="1cdb776a-7c9f-41c6-8286-9767236adcab" />
-        <range start1="16" end1="16" start2="17" end2="71" changelist="1cdb776a-7c9f-41c6-8286-9767236adcab" />
-        <range start1="21" end1="23" start2="76" end2="98" changelist="1cdb776a-7c9f-41c6-8286-9767236adcab" />
-        <range start1="25" end1="25" start2="100" end2="101" changelist="1cdb776a-7c9f-41c6-8286-9767236adcab" />
-        <range start1="31" end1="33" start2="107" end2="136" changelist="1cdb776a-7c9f-41c6-8286-9767236adcab" />
-        <range start1="41" end1="43" start2="144" end2="151" changelist="1cdb776a-7c9f-41c6-8286-9767236adcab" />
-        <range start1="45" end1="45" start2="153" end2="154" changelist="1cdb776a-7c9f-41c6-8286-9767236adcab" />
-        <range start1="51" end1="53" start2="160" end2="174" changelist="a93998ed-9285-48dc-89af-0deac44b8411" />
-        <range start1="55" end1="55" start2="176" end2="177" changelist="1cdb776a-7c9f-41c6-8286-9767236adcab" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -115,8 +98,8 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainWindowBlackBoxTest.testInvalidAmount">
-    <configuration name="MainWindowBlackBoxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MainWindowWhiteBoxTest.testEmptyExchangeValues">
+    <configuration name="MainWindowBlackBoxTest.testConversionSameCurrency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP4" />
       <extension name="coverage">
         <pattern>
@@ -126,28 +109,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.MainWindowBlackBoxTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainWindowBlackBoxTest.testBoundaryValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TP4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MainWindowBlackBoxTest" />
-      <option name="METHOD_NAME" value="testBoundaryValues" />
+      <option name="METHOD_NAME" value="testConversionSameCurrency" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainWindowBlackBoxTest.testInvalidAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainWindowWhiteBoxTest.testConvertWithEmptyCurrenciesList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP4" />
       <extension name="coverage">
         <pattern>
@@ -156,14 +124,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MainWindowBlackBoxTest" />
-      <option name="METHOD_NAME" value="testInvalidAmount" />
+      <option name="MAIN_CLASS_NAME" value="test.MainWindowWhiteBoxTest" />
+      <option name="METHOD_NAME" value="testConvertWithEmptyCurrenciesList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainWindowBlackBoxTest.testInvalidCurrency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainWindowWhiteBoxTest.testCorrectnessOfCalculation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP4" />
       <extension name="coverage">
         <pattern>
@@ -172,14 +140,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MainWindowBlackBoxTest" />
-      <option name="METHOD_NAME" value="testInvalidCurrency" />
+      <option name="MAIN_CLASS_NAME" value="test.MainWindowWhiteBoxTest" />
+      <option name="METHOD_NAME" value="testCorrectnessOfCalculation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainWindowBlackBoxTest.testValidConversion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainWindowWhiteBoxTest.testEmptyExchangeValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP4" />
       <extension name="coverage">
         <pattern>
@@ -188,27 +156,43 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MainWindowBlackBoxTest" />
-      <option name="METHOD_NAME" value="testValidConversion" />
+      <option name="MAIN_CLASS_NAME" value="test.MainWindowWhiteBoxTest" />
+      <option name="METHOD_NAME" value="testEmptyExchangeValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainWindowWhiteBoxTest.testNullInputs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MainWindowWhiteBoxTest" />
+      <option name="METHOD_NAME" value="testNullInputs" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MainWindowBlackBoxTest.testBoundaryValues" />
-      <item itemvalue="JUnit.MainWindowBlackBoxTest.testInvalidAmount" />
-      <item itemvalue="JUnit.MainWindowBlackBoxTest.testInvalidCurrency" />
-      <item itemvalue="JUnit.MainWindowBlackBoxTest.testValidConversion" />
-      <item itemvalue="JUnit.MainWindowBlackBoxTest" />
+      <item itemvalue="JUnit.MainWindowBlackBoxTest.testConversionSameCurrency" />
+      <item itemvalue="JUnit.MainWindowWhiteBoxTest.testConvertWithEmptyCurrenciesList" />
+      <item itemvalue="JUnit.MainWindowWhiteBoxTest.testCorrectnessOfCalculation" />
+      <item itemvalue="JUnit.MainWindowWhiteBoxTest.testEmptyExchangeValues" />
+      <item itemvalue="JUnit.MainWindowWhiteBoxTest.testNullInputs" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainWindowBlackBoxTest.testInvalidAmount" />
-        <item itemvalue="JUnit.MainWindowBlackBoxTest.testBoundaryValues" />
-        <item itemvalue="JUnit.MainWindowBlackBoxTest.testInvalidCurrency" />
-        <item itemvalue="JUnit.MainWindowBlackBoxTest.testValidConversion" />
-        <item itemvalue="JUnit.MainWindowBlackBoxTest" />
+        <item itemvalue="JUnit.MainWindowWhiteBoxTest.testEmptyExchangeValues" />
+        <item itemvalue="JUnit.MainWindowWhiteBoxTest.testCorrectnessOfCalculation" />
+        <item itemvalue="JUnit.MainWindowBlackBoxTest.testConversionSameCurrency" />
+        <item itemvalue="JUnit.MainWindowWhiteBoxTest.testNullInputs" />
+        <item itemvalue="JUnit.MainWindowWhiteBoxTest.testConvertWithEmptyCurrenciesList" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +216,9 @@
       <workItem from="1701786109242" duration="11528000" />
       <workItem from="1701913093853" duration="173000" />
       <workItem from="1701913316010" duration="63000" />
-      <workItem from="1701913519130" duration="1930000" />
+      <workItem from="1701913519130" duration="4924000" />
+      <workItem from="1701919073189" duration="1014000" />
+      <workItem from="1701977851162" duration="14941000" />
     </task>
     <servers />
   </component>
@@ -265,15 +251,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/TP4/src/test/MainWindowBlackBoxTest.java</url>
-          <line>157</line>
-          <properties class="test.MainWindowBlackBoxTest" method="testInvalidAmount">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
