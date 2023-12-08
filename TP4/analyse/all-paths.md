@@ -1,26 +1,29 @@
-All of the possible paths for MainWindow.convert().
+## All of the possible paths for MainWindow.convert()
+
 Each number corresponds to the CFD image with number representation found in
 `TP4/analyse/CFD/MainWindow.convert()- numbers.jpg`
 
-1 2 3 4 5 6 7 8 9 10 11 12 13 14   
-1 2 3 4 8 14                       
-1 2 3 4 8 9 14
-1 2 3 4 8 9 10 11 12 13 14
-1 2 3 4 8 9 i(10 9) 14
-1 2 3 4 8 i(9 10) 11 12 13 14
-1 2 3 4 i(5 4) 8 14
-1 2 3 4 i(5 4) 8 9 14
-1 2 3 4 i(5 4) 8 9 10 11 12 13 14
-1 2 3 4 i(5 4) 8 9 i(10 9) 14
-1 2 3 4 i(5 4) 8 i(9 10) 11 12 13 14
-1 2 3 i(4 5) 6 7 8 14
-1 2 3 i(4 5) 6 7 8 9 14
-1 2 3 i(4 5) 6 7 8 9 10 11 12 13 14
-1 2 3 i(4 5) 6 7 8 9 i(10 9) 14
-1 2 3 i(4 5) 6 7 8 i(9 10) 11 12 13 14
-----------------------------------------------------------
-All possible paths in form of a matrix to find the independent paths.
+- 1 2 3 4 5 6 7 8 9 10 11 12 13 14   
+- 1 2 3 4 8 14                       
+- 1 2 3 4 8 9 14
+- 1 2 3 4 8 9 10 11 12 13 14
+- 1 2 3 4 8 9 i(10 9) 14
+- 1 2 3 4 8 i(9 10) 11 12 13 14
+- 1 2 3 4 i(5 4) 8 14
+- 1 2 3 4 i(5 4) 8 9 14
+- 1 2 3 4 i(5 4) 8 9 10 11 12 13 14
+- 1 2 3 4 i(5 4) 8 9 i(10 9) 14
+- 1 2 3 4 i(5 4) 8 i(9 10) 11 12 13 14
+- 1 2 3 i(4 5) 6 7 8 14
+- 1 2 3 i(4 5) 6 7 8 9 14
+- 1 2 3 i(4 5) 6 7 8 9 10 11 12 13 14
+- 1 2 3 i(4 5) 6 7 8 9 i(10 9) 14
+- 1 2 3 i(4 5) 6 7 8 i(9 10) 11 12 13 14
+  
+---
+## All possible paths in form of a matrix to find the independent paths.
 
+```
 [
 [1 1 1 1 1 1 1 1 1 1 1 1 1 1],
 [1 1 1 1 0 0 0 1 0 0 0 0 0 1],
@@ -39,3 +42,6 @@ All possible paths in form of a matrix to find the independent paths.
 [1 1 1 1 1 1 1 1 1 1 0 0 0 1],
 [1 1 1 1 1 1 1 1 1 1 1 1 1 1]
 ]
+
+```
+
