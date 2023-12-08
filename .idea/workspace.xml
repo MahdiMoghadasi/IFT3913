@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cdb776a-7c9f-41c6-8286-9767236adcab" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TP4/src/test/CurrencyWhiteBoxTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TP4/src/test/MainWindowWhiteBoxTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP4/out/production/test/MainWindowBlackBoxTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/out/production/test/MainWindowBlackBoxTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP4/src/test/MainWindowBlackBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/src/test/MainWindowBlackBoxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4/src/test/CurrencyWhiteBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/src/test/CurrencyWhiteBoxTest.java" afterDir="false" />
     </list>
     <list id="b841a49d-c882-41d2-abad-6cc2d9c3d7a7" name="Changes by HP" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,8 +95,8 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MainWindowWhiteBoxTest.testEmptyExchangeValues">
-    <configuration name="MainWindowBlackBoxTest.testConversionSameCurrency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CurrencyWhiteBoxTest.testNegativeValuesInifinity">
+    <configuration name="CurrencyWhiteBoxTest.testConversionWithNullExchangeValue1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP4" />
       <extension name="coverage">
         <pattern>
@@ -108,14 +105,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MainWindowBlackBoxTest" />
-      <option name="METHOD_NAME" value="testConversionSameCurrency" />
+      <option name="MAIN_CLASS_NAME" value="test.CurrencyWhiteBoxTest" />
+      <option name="METHOD_NAME" value="testConversionWithNullExchangeValue1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainWindowWhiteBoxTest.testConvertWithEmptyCurrenciesList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CurrencyWhiteBoxTest.testNegativeValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP4" />
       <extension name="coverage">
         <pattern>
@@ -124,14 +121,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MainWindowWhiteBoxTest" />
-      <option name="METHOD_NAME" value="testConvertWithEmptyCurrenciesList" />
+      <option name="MAIN_CLASS_NAME" value="test.CurrencyWhiteBoxTest" />
+      <option name="METHOD_NAME" value="testNegativeValues" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainWindowWhiteBoxTest.testCorrectnessOfCalculation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CurrencyWhiteBoxTest.testNegativeValuesInifinity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP4" />
       <extension name="coverage">
         <pattern>
@@ -140,14 +137,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MainWindowWhiteBoxTest" />
-      <option name="METHOD_NAME" value="testCorrectnessOfCalculation" />
+      <option name="MAIN_CLASS_NAME" value="test.CurrencyWhiteBoxTest" />
+      <option name="METHOD_NAME" value="testNegativeValuesInifinity" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainWindowWhiteBoxTest.testEmptyExchangeValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CurrencyWhiteBoxTest.testNegativeValuesMinValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP4" />
       <extension name="coverage">
         <pattern>
@@ -156,14 +153,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MainWindowWhiteBoxTest" />
-      <option name="METHOD_NAME" value="testEmptyExchangeValues" />
+      <option name="MAIN_CLASS_NAME" value="test.CurrencyWhiteBoxTest" />
+      <option name="METHOD_NAME" value="testNegativeValuesMinValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainWindowWhiteBoxTest.testNullInputs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CurrencyWhiteBoxTest.testOutOfBoundaryMaxValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP4" />
       <extension name="coverage">
         <pattern>
@@ -172,27 +169,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MainWindowWhiteBoxTest" />
-      <option name="METHOD_NAME" value="testNullInputs" />
+      <option name="MAIN_CLASS_NAME" value="test.CurrencyWhiteBoxTest" />
+      <option name="METHOD_NAME" value="testOutOfBoundaryMaxValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MainWindowBlackBoxTest.testConversionSameCurrency" />
-      <item itemvalue="JUnit.MainWindowWhiteBoxTest.testConvertWithEmptyCurrenciesList" />
-      <item itemvalue="JUnit.MainWindowWhiteBoxTest.testCorrectnessOfCalculation" />
-      <item itemvalue="JUnit.MainWindowWhiteBoxTest.testEmptyExchangeValues" />
-      <item itemvalue="JUnit.MainWindowWhiteBoxTest.testNullInputs" />
+      <item itemvalue="JUnit.CurrencyWhiteBoxTest.testConversionWithNullExchangeValue1" />
+      <item itemvalue="JUnit.CurrencyWhiteBoxTest.testNegativeValues" />
+      <item itemvalue="JUnit.CurrencyWhiteBoxTest.testNegativeValuesInifinity" />
+      <item itemvalue="JUnit.CurrencyWhiteBoxTest.testNegativeValuesMinValue" />
+      <item itemvalue="JUnit.CurrencyWhiteBoxTest.testOutOfBoundaryMaxValue" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainWindowWhiteBoxTest.testEmptyExchangeValues" />
-        <item itemvalue="JUnit.MainWindowWhiteBoxTest.testCorrectnessOfCalculation" />
-        <item itemvalue="JUnit.MainWindowBlackBoxTest.testConversionSameCurrency" />
-        <item itemvalue="JUnit.MainWindowWhiteBoxTest.testNullInputs" />
-        <item itemvalue="JUnit.MainWindowWhiteBoxTest.testConvertWithEmptyCurrenciesList" />
+        <item itemvalue="JUnit.CurrencyWhiteBoxTest.testNegativeValuesInifinity" />
+        <item itemvalue="JUnit.CurrencyWhiteBoxTest.testNegativeValuesMinValue" />
+        <item itemvalue="JUnit.CurrencyWhiteBoxTest.testOutOfBoundaryMaxValue" />
+        <item itemvalue="JUnit.CurrencyWhiteBoxTest.testConversionWithNullExchangeValue1" />
+        <item itemvalue="JUnit.CurrencyWhiteBoxTest.testNegativeValues" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +215,8 @@
       <workItem from="1701913316010" duration="63000" />
       <workItem from="1701913519130" duration="4924000" />
       <workItem from="1701919073189" duration="1014000" />
-      <workItem from="1701977851162" duration="14941000" />
+      <workItem from="1701977851162" duration="15145000" />
+      <workItem from="1702052328878" duration="3226000" />
     </task>
     <servers />
   </component>
