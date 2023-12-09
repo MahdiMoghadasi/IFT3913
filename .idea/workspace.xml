@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1cdb776a-7c9f-41c6-8286-9767236adcab" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP4/analyse/analyse-paths.md" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/analyse/analyse-paths.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP4/out/production/test/MainWindowWhiteBoxTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/out/production/test/MainWindowWhiteBoxTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP4/src/test/MainWindowWhiteBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/src/test/MainWindowWhiteBoxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP4/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/readme.txt" afterDir="false" />
     </list>
-    <list id="b841a49d-c882-41d2-abad-6cc2d9c3d7a7" name="Changes by HP" comment="">
-      <change beforePath="$PROJECT_DIR$/TP4/src/test/MainWindowWhiteBoxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TP4/src/test/MainWindowWhiteBoxTest.java" afterDir="false" />
-    </list>
+    <list id="b841a49d-c882-41d2-abad-6cc2d9c3d7a7" name="Changes by HP" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,21 +39,6 @@
         <option name="url" value="https://github.com/MahdiMoghadasi/IFT3913.git" />
       </UrlAndAccount>
     </option>
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/TP4/src/test/MainWindowWhiteBoxTest.java">
-      <ranges>
-        <range start1="23" end1="23" start2="23" end2="24" changelist="b841a49d-c882-41d2-abad-6cc2d9c3d7a7" />
-        <range start1="29" end1="30" start2="30" end2="32" changelist="b841a49d-c882-41d2-abad-6cc2d9c3d7a7" />
-        <range start1="40" end1="40" start2="42" end2="69" changelist="b841a49d-c882-41d2-abad-6cc2d9c3d7a7" />
-        <range start1="45" end1="46" start2="74" end2="76" changelist="b841a49d-c882-41d2-abad-6cc2d9c3d7a7" />
-        <range start1="56" end1="56" start2="86" end2="96" changelist="b841a49d-c882-41d2-abad-6cc2d9c3d7a7" />
-        <range start1="80" end1="80" start2="120" end2="308" changelist="b841a49d-c882-41d2-abad-6cc2d9c3d7a7" />
-        <range start1="83" end1="86" start2="311" end2="312" changelist="1cdb776a-7c9f-41c6-8286-9767236adcab" />
-        <range start1="90" end1="90" start2="316" end2="327" changelist="1cdb776a-7c9f-41c6-8286-9767236adcab" />
-        <range start1="121" end1="121" start2="358" end2="360" changelist="b841a49d-c882-41d2-abad-6cc2d9c3d7a7" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -115,6 +96,21 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.CurrencyWhiteBoxTest">
+    <configuration name="CurrencyBlackBoxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.CurrencyBlackBoxTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CurrencyWhiteBoxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP4" />
       <extension name="coverage">
@@ -125,6 +121,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.CurrencyWhiteBoxTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainWindowBlackBoxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MainWindowBlackBoxTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,22 +156,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainWindowWhiteBoxTest.testCurrency1Found" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TP4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MainWindowWhiteBoxTest" />
-      <option name="METHOD_NAME" value="testCurrency1Found" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainWindowWhiteBoxTest.testCurrency2Found" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP4" />
       <extension name="coverage">
@@ -177,36 +172,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainWindowWhiteBoxTest.testTenCurrencyConversion1NotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TP4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MainWindowWhiteBoxTest" />
-      <option name="METHOD_NAME" value="testTenCurrencyConversion1NotFound" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="JUnit.CurrencyBlackBoxTest" />
       <item itemvalue="JUnit.CurrencyWhiteBoxTest" />
+      <item itemvalue="JUnit.MainWindowBlackBoxTest" />
       <item itemvalue="JUnit.MainWindowWhiteBoxTest" />
-      <item itemvalue="JUnit.MainWindowWhiteBoxTest.testCurrency1Found" />
       <item itemvalue="JUnit.MainWindowWhiteBoxTest.testCurrency2Found" />
-      <item itemvalue="JUnit.MainWindowWhiteBoxTest.testTenCurrencyConversion1NotFound" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainWindowWhiteBoxTest" />
+        <item itemvalue="JUnit.CurrencyBlackBoxTest" />
+        <item itemvalue="JUnit.MainWindowBlackBoxTest" />
         <item itemvalue="JUnit.CurrencyWhiteBoxTest" />
+        <item itemvalue="JUnit.MainWindowWhiteBoxTest" />
         <item itemvalue="JUnit.MainWindowWhiteBoxTest.testCurrency2Found" />
-        <item itemvalue="JUnit.MainWindowWhiteBoxTest.testCurrency1Found" />
-        <item itemvalue="JUnit.MainWindowWhiteBoxTest.testTenCurrencyConversion1NotFound" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +213,7 @@
       <workItem from="1701919073189" duration="1014000" />
       <workItem from="1701977851162" duration="15145000" />
       <workItem from="1702052328878" duration="6118000" />
-      <workItem from="1702060670088" duration="20088000" />
+      <workItem from="1702060670088" duration="21273000" />
     </task>
     <servers />
   </component>
